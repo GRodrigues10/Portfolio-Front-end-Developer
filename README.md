@@ -15,13 +15,13 @@ Olá! Aqui compartilho meus **projetos** e um pouco da minha **trajetória no mu
 ---
 
 ## ✨ Destaques
-- **Mobile-first:** Layout adaptável para todos os dispositivos  
-- **Componentização:** Estrutura modular e reutilizável  
-- **Navegação:** Páginas e seções conectadas com **React Router**  
-- **Seção de projetos:** Cards com imagens, descrições e links (GitHub/deploy)  
-- **Interatividade:** Navegação fluida e elementos dinâmicos
-- **Contato:** Possibilidade de enviar mensagem ou acessar links direto na seção de contato do portfólio  
-- **Design limpo e organizado:** Experiência agradável para o usuário  
+- **Mobile-first:** Layout adaptável para todos os dispositivos.  
+- **Componentização:** Estrutura modular e reutilizável. 
+- **Navegação:** Páginas e seções conectadas com **React Router**.  
+- **Seção de projetos:** Cards com imagens, descrições e links (GitHub/deploy).
+- **Interatividade:** Navegação fluida e elementos dinâmicos.
+- **Contato:** Possibilidade de enviar mensagem ou acessar links direto na seção de contato do portfólio.
+- **Design limpo e organizado:** Experiência agradável para o usuário.  
 
 ---
 
