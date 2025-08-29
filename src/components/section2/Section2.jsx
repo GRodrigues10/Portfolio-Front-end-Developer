@@ -42,7 +42,7 @@ function Section2() {
 
        <div className="p4">
   <h3>Objetivos</h3>
-  <li>Contribuir com soluções eficientes e criativas em projetos Front-end e Back-end</li>
+  <li>Contribuir com soluções eficientes e criativas em projetos Front-end</li>
   <li>Ajudar a resolver problemas enquanto agrego valor à equipe e à empresa</li>
 </div>
         </div>

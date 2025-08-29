@@ -24,9 +24,9 @@ function Section1() {
         </div>
         <div className="content-text">
           <h1>Olá, eu sou o Gabriel</h1>
-          <h2>Full Stack Developer</h2>
+          <h2>Front-end Developer</h2>
           <p>
-            Desenvolvedor Full Stack formado em Análise e Desenvolvimento de
+            Desenvolvedor Front-end formado em Análise e Desenvolvimento de
             Sistemas pela Universidade La Salle. Tenho experiência prática em
             projetos web utilizando tecnologias como{" "}
             <span className="tech react">React JS</span>,{" "}
