@@ -8,7 +8,7 @@ import cat from "../../../assets/cat6.png";
 import cep from "../../../assets/cep3.png";
 import clima from "../../../assets/clima2.png";
 import cake from "../../../assets/cake.png";
-import tech from "../../../assets/techy.png";
+import tech from "../../../assets/technolgy.png";
 import cordel from "../../../assets/cordel.png";
 import net from "../../../assets/net.png";
 import { useNavigate } from "react-router-dom";
