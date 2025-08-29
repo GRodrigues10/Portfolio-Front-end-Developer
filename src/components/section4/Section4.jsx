@@ -15,7 +15,8 @@ function Section4() {
 const navigate = useNavigate();
   const seeMore = () => {
     
-    navigate('/details')
+    navigate('/details');
+
   }
 
   return (

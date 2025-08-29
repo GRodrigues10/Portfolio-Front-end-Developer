@@ -6,15 +6,19 @@ import file from "../../../assets/file2.png";
 import starwars from "../../../assets/lightsaber.png";
 import backend from "../../../assets/backend.png";
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 
 function Details() {
      const navigate = useNavigate();
   const back = () => {
  
-    navigate('/');
+   navigate('/')
+
   
 
   }
+   
+
   return (
     <StylesDetails>
       <div className="content-section">
