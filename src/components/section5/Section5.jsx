@@ -3,7 +3,7 @@ import { StylesSection5 } from "./Styles";
 
 function Section5() {
   return (
-    <StylesSection5>
+    <StylesSection5 id="contato">
       <div className="content-section">
         <h1>Contato</h1>
         {/* <div className="direct-contact">

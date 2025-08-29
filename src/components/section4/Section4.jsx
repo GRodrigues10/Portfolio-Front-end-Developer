@@ -1,11 +1,23 @@
 import React from "react";
 import { StylesSection4 } from "./Styles";
-import astro from "../../assets/astrolens.png";
-import produtime from "../../assets/produtime-logo.png";
+import produtime from "../../assets/produ.png";
 import netflix from "../../assets/projeto-netflix.jpg";
+import astro from "../../assets/astro3.png";
+import cat from "../../assets/cat.png";
+import file from "../../assets/file2.png";
+import starwars from "../../assets/lightsaber.png";
+import backend from "../../assets/backend.png";
+
 import { SiGithub } from "react-icons/si";
+import { useNavigate } from "react-router-dom";
 
 function Section4() {
+const navigate = useNavigate();
+  const seeMore = () => {
+    
+    navigate('/details')
+  }
+
   return (
     <StylesSection4 id="projetos">
       <div className="content-section">
@@ -14,11 +26,14 @@ function Section4() {
           <div className="card">
             <h3>AstroLens</h3>
             <img src={astro} alt="Capa do AstroLens" />
+            {/* <div className="img">
+
+            </div> */}
 
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
-              pariatur eos suscipit necessitatibus saepe. Deserunt numquam
-              voluptate minus eveniet quasi.
+              AstroLens é um app web em React que explora astronomia: planetas,
+              imagens da NASA, APOD e clima espacial, com interface moderna e
+              intuitiva.
             </p>
             <div className="tech">
               <p>React JS</p>
@@ -39,9 +54,9 @@ function Section4() {
             <img src={netflix} alt="Capa da Netfix" />
 
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
-              pariatur eos suscipit necessitatibus saepe. Deserunt numquam
-              voluptate minus eveniet quasi.
+              Clone da Netflix em React, modular e responsivo, integrado à API
+              TMDB para exibir filmes, séries e detalhes com design moderno e
+              otimizado.
             </p>
             <div className="tech">
               <p>React JS</p>
@@ -56,14 +71,58 @@ function Section4() {
             </div>
           </div>
 
+         
           <div className="card">
+            <h3>API Star Wars</h3>
+            <img src={starwars} alt="Capa do Star Wars" />
+
+            <p>
+              App web de Star Wars com full stack, exibindo filmes e séries,
+              mostrando detalhes de cada título em interface moderna e
+              responsiva.
+            </p>
+            <div className="tech">
+              <p>React JS</p>
+              <p>Styled Components</p>
+              <p>React Router</p>
+              <p>MongoDB</p>
+              <p>node JS</p>
+              <p>Endpoints RESTful</p>
+            </div>
+            <div className="btns">
+              <button>Github</button>
+              <button>Deploy</button>
+            </div>
+          </div>
+          <div className="card">
+            <h3>API de Filmes</h3>
+            <img src={backend} alt="Capa da API de Filmes" />
+
+            <p>
+              Projeto de API de séries feito na faculdade com Express.js e
+              MongoDB, permitindo adicionar, listar, atualizar, excluir e
+              agrupar séries RESTful.
+            </p>
+            <div className="tech">
+              <p>JavaScript</p>
+              <p>MongoDB</p>
+              <p>Express</p>
+              <p>Insommia</p>
+              <p>Endpoints RESTful</p>
+            </div>
+            <div className="btns">
+              <button>Github</button>
+              <button>Deploy</button>
+            </div>
+          </div>
+           <div className="card">
             <h3>Produtime</h3>
             <img src={produtime} alt="Capa do Produtime" />
 
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
-              pariatur eos suscipit necessitatibus saepe. Deserunt numquam
-              voluptate minus eveniet quasi.
+              Produtime é um app responsivo que ajuda a organizar tarefas,
+              acompanhar progresso e otimizar tempo, ideal para profissionais
+              focados e produtivos.
             </p>
             <div className="tech">
               <p>React JS</p>
@@ -79,57 +138,19 @@ function Section4() {
             </div>
           </div>
           <div className="card">
-            <h3>Confeitaria Online</h3>
-            <img src={netflix} alt="Capa da Netfix" />
+            <h3>Conversor de Arquivos</h3>
+            <img src={file} alt="Capa do Conversor de Arquivos" />
 
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
-              pariatur eos suscipit necessitatibus saepe. Deserunt numquam
-              voluptate minus eveniet quasi.
+              App web que permite arrastar ou selecionar arquivos e convertê-los
+              em TXT, CSV, JSON, PNG ou JPG, com interface simples e rápida,
+              direto no navegador.
             </p>
             <div className="tech">
-              <p>HTML5</p>
-              <p>BootStrap 5</p>
-            </div>
-            <div className="btns">
-              <button>Github</button>
-              <button>Deploy</button>
-            </div>
-          </div>
-          <div className="card">
-            <h3>API de Filmes</h3>
-            <img src={netflix} alt="Capa da Netfix" />
-
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
-              pariatur eos suscipit necessitatibus saepe. Deserunt numquam
-              voluptate minus eveniet quasi.
-            </p>
-            <div className="tech">
-              <p>JavaScript</p>
-              <p>MongoDB</p>
-              <p>Express</p>
-              <p>Insommia</p>
-            </div>
-            <div className="btns">
-              <button>Github</button>
-              <button>Deploy</button>
-            </div>
-          </div>
-          <div className="card">
-            <h3>Catify</h3>
-            <img src={netflix} alt="Capa da Netfix" />
-
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
-              pariatur eos suscipit necessitatibus saepe. Deserunt numquam
-              voluptate minus eveniet quasi.
-            </p>
-            <div className="tech">
-                <p>HTML5</p>
-              <p>CSS3</p>
-                <p>JavaScript</p>
-              <p>APIs RESTful</p>
+              <p>React JS</p>
+              <p>Styled Components</p>
+              <p>React Router</p>
+              <p>File-Saver</p>
             </div>
             <div className="btns">
               <button>Github</button>
@@ -138,7 +159,7 @@ function Section4() {
           </div>
         </div>
         <div className="see-more">
-            <button>Ver Mais</button>
+          <button onClick={seeMore}>Ver Mais</button>
         </div>
       </div>
     </StylesSection4>

@@ -14,7 +14,7 @@ function Section2() {
           Minha primeira experiência profissional foi como{" "}
           <span>editor de vídeo</span>, atuando por 5 anos como autônomo, o que
           me permitiu desenvolver disciplina, criatividade e atenção a detalhes.
-          Atualmente, estou migrando para a área de <span> Desenvolvedor Front-end</span>, com
+          Atualmente, estou migrando para a área de <span> Desenvolvedor Full Stack</span>, com
           experiência prática em projetos de desenvolvimento de interfaces. Sou
           dedicado, adaptável e motivado a crescer na área de tecnologia,
           contribuindo com soluções criativas e eficientes.
@@ -42,7 +42,7 @@ function Section2() {
 
        <div className="p4">
   <h3>Objetivos</h3>
-  <li>Contribuir com soluções eficientes e criativas em projetos Front-end</li>
+  <li>Contribuir com soluções eficientes e criativas em projetos Front-end e Back-end</li>
   <li>Ajudar a resolver problemas enquanto agrego valor à equipe e à empresa</li>
 </div>
         </div>

@@ -143,7 +143,8 @@ export const StylesSection3 = styled.div`
     }
 
     h1 {
-      font-size: 3rem;
+      font-size: 3rem !important;
+      padding-bottom: 20px !important;
     }
 
     p {

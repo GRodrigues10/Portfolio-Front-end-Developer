@@ -18,8 +18,10 @@ export const StylesFooter = styled.footer`
     color: white;
     cursor: pointer;
     transition: 0.4s ease;
+    color: #8800f7ff;
     &:hover {
-      color: rgba(138, 16, 238, 1);
+    color: #610ea5ff;
+     
     }
   }
 

@@ -111,7 +111,7 @@ export const StylesSection5 = styled.div`
     margin-top: 20px;
     transition: 0.4s ease;
     &:hover {
-      background-color: #7979f8ff;
+      background-color: #aeaeffff;
       color: black;
     }
   }
@@ -139,7 +139,7 @@ export const StylesSection5 = styled.div`
   }
 
   @media screen and (min-width: 768px) {
-     min-height: 90vh;
+     min-height: 100vh;
     .content-section h1 {
       font-size: 2.2rem;
     }

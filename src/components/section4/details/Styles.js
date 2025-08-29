@@ -1,45 +1,33 @@
 import styled from "styled-components";
-import background from "../../assets/bac.png";
-// import b1 from '../../assets/astrolens.png'
+import background from '../../../assets/bac.png'
 
-export const StylesSection4 = styled.div`
+export const StylesDetails = styled.div`
   width: 100%;
   min-height: 100vh;
-  background-image: url(${background});
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  color: #e6e6fa;
   display: flex;
-  align-items: center;
+  align-items: flex-start; /* alinhado ao topo da seção */
   justify-content: center;
+  color: #e6e6fa;
+  padding: 30px; /* topo = header + 30px */
+  box-sizing: border-box;
+  padding-top: 60px;
+  background-image: url(${background});
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size:cover;
 
-  scroll-margin-top: 100px; 
-
-  /* ==================== Content Section ==================== */
-  .content-section {
+    .content-section {
     width: 100%;
     max-width: 1200px;
     text-align: center;
-      padding: 30px;
+     
   }
-
-  .content-section h1 {
-    margin-top: 0px;
-    margin-bottom: 40px;
-    text-align: center;
-  }
-
+ 
   h1 {
-    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 50px;
   }
-
-  h3 {
-    color: white;
-    text-shadow: 1px 2px 3px #00000086;
-  }
-
-  /* ==================== Grid ==================== */
   .cards {
     display: grid;
     grid-template-columns: 1fr;
@@ -67,17 +55,16 @@ export const StylesSection4 = styled.div`
   }
 
   .card h3 {
-    font-size: 1.4rem; /* menor em geral */
+    font-size: 1.4rem;
     margin-bottom: 10px;
   }
 
   .card p {
-    font-size: 0.95rem; /* menor em geral */
+    font-size: 0.95rem;
     text-align: justify;
     margin-bottom: 15px;
   }
 
-  /* ==================== Card Image ==================== */
   .card img {
     width: 100%;
     height: 160px;
@@ -87,7 +74,6 @@ export const StylesSection4 = styled.div`
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  /* ==================== Tech Tags ==================== */
   .tech {
     display: flex;
     flex-wrap: wrap;
@@ -111,7 +97,6 @@ export const StylesSection4 = styled.div`
     }
   }
 
-  /* ==================== Buttons ==================== */
   .btns {
     display: flex;
     gap: 10px;
@@ -136,45 +121,42 @@ export const StylesSection4 = styled.div`
     box-shadow: 0 6px 15px rgba(80, 0, 120, 0.6);
   }
 
-  .see-more {
-    margin-top: 50px;
-    width: 100%;
-  }
-
-  .see-more button {
+  button{
     padding: 10px;
-    width: 100%;
     font-size: 1rem;
-    font-weight: bold;
-    background: rgba(0, 119, 255, 0.15);
-    border: 1px solid rgba(0, 200, 255, 0.3);
-    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background:transparent;
     color: white;
+    border-radius: 5px;
+    border: 1px solid;
+    max-width: 400px;
+    width: 100%;
     cursor: pointer;
-    transition: 0.4s ease;
-    max-width: 380px;
+    transition: .4s ease;
 
-    &:hover {
-      box-shadow: 0 8px 25px rgba(80, 0, 120, 0.6),
-        0 0 20px 5px rgba(80, 0, 120, 0.5);
+    &:hover{
+      background-color: #4da6ff;
+      color: black;
     }
   }
 
-  /* ==================== Media Queries ==================== */
   @media screen and (min-width: 530px) {
-   .cards{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-   }
-   .cards .card{
-    max-width: 400px;
-
-   }
+    .cards {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .cards .card {
+      max-width: 400px;
+    }
     .card img {
       height: 180px;
+    }
+    button{
+      font-size: 1.1rem;
     }
   }
 
@@ -182,9 +164,7 @@ export const StylesSection4 = styled.div`
     .cards {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-        align-items: stretch;
-  
-
+      align-items: stretch;
     }
     .card img {
       height: 200px;
@@ -198,14 +178,12 @@ export const StylesSection4 = styled.div`
     .tech p {
       font-size: 0.8rem;
     }
-    .see-more button {
-      font-size: 1.1rem;
+     button{
+      font-size: 1.2rem;
     }
-
   }
 
   @media screen and (min-width: 992px) {
-
     .cards {
       grid-template-columns: repeat(3, 1fr);
     }
@@ -228,22 +206,18 @@ export const StylesSection4 = styled.div`
     .content-section p {
       font-size: 1.3rem;
     }
-    .btns{
+    .btns {
       margin-top: auto;
     }
-    .btns button{
+    .btns button {
       font-size: 0.7rem;
-      
     }
-    .see-more button {
-      font-size: 1.3rem ;
+      button{
+      font-size: 1.3rem;
     }
-
   }
 
   @media screen and (min-width: 1200px) {
-
-
     .cards {
       grid-template-columns: repeat(3, 1fr);
     }
@@ -266,7 +240,7 @@ export const StylesSection4 = styled.div`
       font-size: 1rem;
     }
 
-       .btns button{
+    .btns button {
       font-size: 0.9rem;
     }
   }
