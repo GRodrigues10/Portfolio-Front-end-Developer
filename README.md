@@ -1,7 +1,7 @@
 # Portfólio
 Este é meu portfólio, onde compartilho meus projetos e um pouco da minha trajetória no mundo da tecnologia.
 
-## Destaques:
+<h2>Tecnologias Utilizadas:</h2>
 
 - Mobile-first: Layout adaptável para todos os dispositivos.
 
