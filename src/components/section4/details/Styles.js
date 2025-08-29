@@ -5,33 +5,35 @@ export const StylesDetails = styled.div`
   width: 100%;
   min-height: 100vh;
   display: flex;
-  align-items: flex-start; /* alinhado ao topo da seção */
+  align-items: flex-start;
   justify-content: center;
   color: #e6e6fa;
-  padding: 30px; /* topo = header + 30px */
-  box-sizing: border-box;
+  padding: 30px;
   padding-top: 60px;
+  box-sizing: border-box;
   background-image: url(${background});
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
 
-    .content-section {
+  .content-section {
     width: 100%;
     max-width: 1200px;
     text-align: center;
-     
   }
- 
+
   h1 {
     text-align: center;
     margin-bottom: 50px;
   }
+
   .cards {
     display: grid;
     grid-template-columns: 1fr;
     gap: 30px;
+     justify-items: center; /* centraliza os cards horizontalmente */
+  align-items: start; /* evita esticamento vertical */
   }
 
   /* ==================== Card ==================== */
@@ -40,12 +42,15 @@ export const StylesDetails = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+     
+  max-width: 400px; /* limita largura igual ao Section4 */
     padding: 15px;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
     background: rgba(0, 119, 255, 0.15);
     border: 1px solid rgba(0, 200, 255, 0.3);
+    height: 100%; /* ocupa toda altura do grid */
   }
 
   .card:hover {
@@ -101,6 +106,8 @@ export const StylesDetails = styled.div`
     display: flex;
     gap: 10px;
     justify-content: center;
+    margin-top: auto;
+    
   }
 
   .btns button {
@@ -113,12 +120,17 @@ export const StylesDetails = styled.div`
     font-size: 0.95rem;
     transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
     border: 1px solid purple;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    
   }
 
   .btns button:hover {
     background: #31004a7a;
     transform: scale(1.05);
     box-shadow: 0 6px 15px rgba(80, 0, 120, 0.6);
+    color: white;
   }
 
   button{
@@ -141,6 +153,7 @@ export const StylesDetails = styled.div`
     }
   }
 
+  /* ==================== Media Queries ==================== */
   @media screen and (min-width: 530px) {
     .cards {
       width: 100%;
@@ -178,7 +191,7 @@ export const StylesDetails = styled.div`
     .tech p {
       font-size: 0.8rem;
     }
-     button{
+    button{
       font-size: 1.2rem;
     }
   }
@@ -187,15 +200,14 @@ export const StylesDetails = styled.div`
     .cards {
       grid-template-columns: repeat(3, 1fr);
     }
-
     .card img {
       height: 180px;
     }
     .card h3 {
-      font-size: 1.2rem; /* menor */
+      font-size: 1.2rem;
     }
     .card p {
-      font-size: 0.8rem !important; /* menor */
+      font-size: 0.8rem !important;
     }
     .tech p {
       font-size: 0.6rem !important;
@@ -206,13 +218,10 @@ export const StylesDetails = styled.div`
     .content-section p {
       font-size: 1.3rem;
     }
-    .btns {
-      margin-top: auto;
-    }
     .btns button {
       font-size: 0.7rem;
     }
-      button{
+    button{
       font-size: 1.3rem;
     }
   }
@@ -225,10 +234,10 @@ export const StylesDetails = styled.div`
       height: 180px;
     }
     .card h3 {
-      font-size: 1.5rem; /* menor */
+      font-size: 1.5rem;
     }
     .card p {
-      font-size: 1rem !important; /* menor */
+      font-size: 1rem !important;
     }
     .tech p {
       font-size: 0.75rem !important;
@@ -239,7 +248,6 @@ export const StylesDetails = styled.div`
     .content-section p {
       font-size: 1rem;
     }
-
     .btns button {
       font-size: 0.9rem;
     }

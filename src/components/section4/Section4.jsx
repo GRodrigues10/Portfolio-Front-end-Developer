@@ -1,22 +1,26 @@
 import React from "react";
 import { StylesSection4 } from "./Styles";
 import produtime from "../../assets/produ.png";
-import netflix from "../../assets/projeto-netflix.jpg";
 import astro from "../../assets/astro3.png";
-import cat from "../../assets/cat.png";
 import file from "../../assets/file2.png";
 import starwars from "../../assets/lightsaber.png";
 import backend from "../../assets/backend.png";
-
+import net from "../../assets/net.png";
 import { SiGithub } from "react-icons/si";
 import { useNavigate } from "react-router-dom";
 
 function Section4() {
-const navigate = useNavigate();
+  const navigate = useNavigate();
   const seeMore = () => {
-    
-    navigate('/details');
+    navigate("/details");
+  };
 
+  const msgAlert = () => {
+    alert("Esse é um projeto puramente Back-end!");
+  };
+
+  const inProgress = () => {
+    alert('Esse projeto ainda está em desenvolvimento!')
   }
 
   return (
@@ -45,14 +49,24 @@ const navigate = useNavigate();
               <p>LocalStorage</p>
             </div>
             <div className="btns">
-              <button>Github</button>
-              <button>Deploy</button>
+              <a
+                href="https://github.com/GRodrigues10/AstroLens"
+                target="_blank"
+              >
+                <button>Github</button>
+              </a>
+              <a
+                href="https://grodrigues10.github.io/AstroLens/"
+                target="_blank"
+              >
+                <button>Deploy</button>
+              </a>
             </div>
           </div>
 
           <div className="card">
             <h3>Netflix-Clone</h3>
-            <img src={netflix} alt="Capa da Netfix" />
+            <img src={net} alt="Capa da Netfix" />
 
             <p>
               Clone da Netflix em React, modular e responsivo, integrado à API
@@ -67,12 +81,21 @@ const navigate = useNavigate();
               <p>APIs RESTful</p>
             </div>
             <div className="btns">
-              <button>Github</button>
-              <button>Deploy</button>
+              <a
+                href="https://github.com/GRodrigues10/Movies-ReactJS"
+                target="_blank"
+              >
+                <button>Github</button>
+              </a>
+              <a
+                href="https://grodrigues10.github.io/Movies-ReactJS/"
+                target="_blank"
+              >
+                <button>Deploy</button>
+              </a>
             </div>
           </div>
 
-         
           <div className="card">
             <h3>API Star Wars</h3>
             <img src={starwars} alt="Capa do Star Wars" />
@@ -91,8 +114,12 @@ const navigate = useNavigate();
               <p>Endpoints RESTful</p>
             </div>
             <div className="btns">
-              <button>Github</button>
-              <button>Deploy</button>
+             
+                <button onClick={inProgress}>Github</button>
+             
+             
+                <button onClick={inProgress}>Deploy</button>
+             
             </div>
           </div>
           <div className="card">
@@ -112,11 +139,16 @@ const navigate = useNavigate();
               <p>Endpoints RESTful</p>
             </div>
             <div className="btns">
-              <button>Github</button>
-              <button>Deploy</button>
+              <a
+                href="https://github.com/GRodrigues10/Projeto-API-Faculdade"
+                target="_blank"
+              >
+                <button>Github</button>
+              </a>
+              <button onClick={msgAlert}>Deploy</button>
             </div>
           </div>
-           <div className="card">
+          <div className="card">
             <h3>Produtime</h3>
             <img src={produtime} alt="Capa do Produtime" />
 
@@ -134,8 +166,18 @@ const navigate = useNavigate();
               <p>LocalStorage</p>
             </div>
             <div className="btns">
-              <button>Github</button>
-              <button>Deploy</button>
+              <a
+                href="https://github.com/GRodrigues10/produtime-reactjs"
+                target="_blank"
+              >
+                <button>Github</button>
+              </a>
+              <a
+                href="https://grodrigues10.github.io/produtime-reactjs/"
+                target="_blank"
+              >
+                <button>Deploy</button>
+              </a>
             </div>
           </div>
           <div className="card">
@@ -154,8 +196,8 @@ const navigate = useNavigate();
               <p>File-Saver</p>
             </div>
             <div className="btns">
-              <button>Github</button>
-              <button>Deploy</button>
+              <a href="https://github.com/GRodrigues10/File-Converter" target="_blank"><button>Github</button></a>
+              <a href="https://grodrigues10.github.io/File-Converter/" target="_blank"><button>Deploy</button></a>
             </div>
           </div>
         </div>

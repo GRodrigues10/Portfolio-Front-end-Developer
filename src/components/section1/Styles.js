@@ -48,9 +48,9 @@ padding-top: 100px; /* mesma altura do header */
   }
 
   /* Delays para entrada em cascata dos 3 ícones */
-  .social-medias svg:nth-child(1) { animation-delay: 0s; }
-  .social-medias svg:nth-child(2) { animation-delay: 0.2s; }
-  .social-medias svg:nth-child(3) { animation-delay: 0.4s; }
+  .social-medias  a:nth-child(1) svg{ animation-delay: 0s; }
+  .social-medias  a:nth-child(2) svg{ animation-delay: 0.2s; }
+  .social-medias  a:nth-child(3) svg{ animation-delay: 0.4s; }
 
 .perfil {
   transform: translateX(100%);
@@ -144,6 +144,7 @@ p {
   .tech.js { color: #f7df1e; }
   .tech.html { color: #e34f26; }
   .tech.css { color: #2965f1; }
+  .tech.node{color: #339933}
 
   @keyframes gradientMove {
     0% { background-position: 0% 50%; }

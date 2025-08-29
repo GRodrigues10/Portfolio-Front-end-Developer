@@ -8,9 +8,19 @@ function Section1() {
     <StylesSection1 id="inicio">
       <div className="content-section">
         <div className="social-medias">
-          <FaLinkedin />
-          <FaWhatsapp />
-          <FaGithub />
+          <a href="https://www.linkedin.com/in/grodriguess10/" target="_blank">
+            <FaLinkedin />
+          </a>
+          <a
+            href="https://wa.me/5521965476339"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaWhatsapp />
+          </a>
+          <a href="https://github.com/GRodrigues10" target="_blank">
+            <FaGithub />
+          </a>
         </div>
         <div className="content-text">
           <h1>Olá, eu sou o Gabriel</h1>
@@ -21,9 +31,11 @@ function Section1() {
             projetos web utilizando tecnologias como{" "}
             <span className="tech react">React JS</span>,{" "}
             <span className="tech js">JavaScript</span>,{" "}
-            <span className="tech html">HTML</span> e{" "}
-            <span className="tech css">CSS</span>, com foco em criar interfaces
-            modernas, responsivas e centradas na experiência do usuário.
+            <span className="tech html">HTML</span>,{" "}
+            <span className="tech css">CSS</span> e{" "}
+            <span className="tech node">Node JS</span>, com foco em criar
+            interfaces modernas, responsivas e centradas na experiência do
+            usuário.
           </p>
           <div className="btn">
             <button>Currículo</button>

@@ -1,7 +1,30 @@
 import React from "react";
 import { StylesSection5 } from "./Styles";
+import emailjs from "@emailjs/browser";
+
 
 function Section5() {
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_w7iacft",   // Substitua
+        "template_ub7g5w2",  // Substitua
+        e.target,
+        "law81UOVlzmXzpuq-"    // Substitua
+      )
+      .then(
+        () => {
+          alert("Mensagem enviada com sucesso!");
+        },
+        (error) => {
+          alert("Erro ao enviar: " + error.text);
+        }
+      );
+
+    e.target.reset();
+  };
   return (
     <StylesSection5 id="contato">
       <div className="content-section">
@@ -17,20 +40,20 @@ function Section5() {
           </div>
 
         </div> */}
-        <div className="inputs">
+        <form className="inputs" onSubmit={sendEmail}>
           <div className="names">
-            <input type="text" placeholder="Nome" />
-            <input type="text" placeholder="Sobrenome" />
+            <input type="text" name="nome" placeholder="Nome" required/>
+            <input type="text" name="sobrenome" placeholder="Sobrenome" required/>
           </div>
 
           <div className="emails">
-            <input type="text" placeholder="E-mail" />
-            <input type="text" placeholder="Assunto" />
+            <input type="text" name="email" placeholder="E-mail" required/>
+            <input type="text" name="assunto" placeholder="Assunto" required />
           </div>
-          <textarea placeholder="Digite o Assunto..."></textarea>
+          <textarea name="mensagem" placeholder="Digite o Assunto..." required></textarea>
 
-          <button>Enviar Mensagem</button>
-        </div>
+          <button type="submit">Enviar Mensagem</button>
+        </form>
       </div>
     </StylesSection5>
   );

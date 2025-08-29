@@ -1,23 +1,32 @@
 import { StylesDetails } from "./Styles";
 import produtime from "../../../assets/produ.png";
-import netflix from "../../../assets/projeto-netflix.jpg";
 import astro from "../../../assets/astro3.png";
 import file from "../../../assets/file2.png";
 import starwars from "../../../assets/lightsaber.png";
 import backend from "../../../assets/backend.png";
+import cat from "../../../assets/cat6.png";
+import cep from "../../../assets/cep3.png";
+import clima from "../../../assets/clima2.png";
+import cake from "../../../assets/cake.png";
+import tech from "../../../assets/tech.png";
+import cordel from "../../../assets/cordel.png";
+import net from "../../../assets/net.png";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 
 function Details() {
-     const navigate = useNavigate();
+  const navigate = useNavigate();
   const back = () => {
- 
-   navigate('/')
+    navigate("/");
+  };
 
-  
+  const inProgress = () => {
+    alert("Esse projeto está em desenvolvimento!");
+  };
 
-  }
-   
+  const backend_ = () => {
+    alert("Esse é um projeto puramente Back-end!");
+  };
 
   return (
     <StylesDetails>
@@ -45,14 +54,24 @@ function Details() {
               <p>LocalStorage</p>
             </div>
             <div className="btns">
-              <button>Github</button>
-              <button>Deploy</button>
+              <a
+                href="https://github.com/GRodrigues10/AstroLens"
+                target="_blank"
+              >
+                <button>Github</button>
+              </a>
+              <a
+                href="https://grodrigues10.github.io/AstroLens/"
+                target="_blank"
+              >
+                <button>Deploy</button>
+              </a>
             </div>
           </div>
 
           <div className="card">
             <h3>Netflix-Clone</h3>
-            <img src={netflix} alt="Capa da Netfix" />
+            <img src={net} alt="Capa da Netfix" />
 
             <p>
               Clone da Netflix em React, modular e responsivo, integrado à API
@@ -67,8 +86,18 @@ function Details() {
               <p>APIs RESTful</p>
             </div>
             <div className="btns">
-              <button>Github</button>
-              <button>Deploy</button>
+              <a
+                href="https://github.com/GRodrigues10/Movies-ReactJS"
+                target="_blank"
+              >
+                <button>Github</button>
+              </a>
+              <a
+                href="https://grodrigues10.github.io/Movies-ReactJS/"
+                target="_blank"
+              >
+                <button>Deploy</button>
+              </a>
             </div>
           </div>
 
@@ -90,8 +119,8 @@ function Details() {
               <p>Endpoints RESTful</p>
             </div>
             <div className="btns">
-              <button>Github</button>
-              <button>Deploy</button>
+              <button onClick={inProgress}>Github</button>
+              <button onClick={inProgress}>Deploy</button>
             </div>
           </div>
           <div className="card">
@@ -111,8 +140,13 @@ function Details() {
               <p>Endpoints RESTful</p>
             </div>
             <div className="btns">
-              <button>Github</button>
-              <button>Deploy</button>
+              <a
+                href="https://github.com/GRodrigues10/Projeto-API-Faculdade"
+                target="_blank"
+              >
+                <button>Github</button>
+              </a>
+              <button onClick={backend_}>Deploy</button>
             </div>
           </div>
           <div className="card">
@@ -133,8 +167,18 @@ function Details() {
               <p>LocalStorage</p>
             </div>
             <div className="btns">
-              <button>Github</button>
-              <button>Deploy</button>
+              <a
+                href="https://github.com/GRodrigues10/produtime-reactjs"
+                target="_blank"
+              >
+                <button>Github</button>
+              </a>
+              <a
+                href="https://grodrigues10.github.io/produtime-reactjs/"
+                target="_blank"
+              >
+                <button>Deploy</button>
+              </a>
             </div>
           </div>
           <div className="card">
@@ -153,40 +197,60 @@ function Details() {
               <p>File-Saver</p>
             </div>
             <div className="btns">
-              <button>Github</button>
-              <button>Deploy</button>
+              <a
+                href="https://github.com/GRodrigues10/File-Converter"
+                target="_blank"
+              >
+                <button>Github</button>
+              </a>
+              <a
+                href="https://grodrigues10.github.io/File-Converter/"
+                target="_blank"
+              >
+                <button>Deploy</button>
+              </a>
             </div>
           </div>
 
           <div className="card">
             <h3>Buscador de CEP</h3>
-            <img src={file} alt="Capa do Conversor de Arquivos" />
+            <img src={cep} alt="Capa do Conversor de Arquivos" />
 
             <p>
-              App web que permite arrastar ou selecionar arquivos e convertê-los
-              em TXT, CSV, JSON, PNG ou JPG, com interface simples e rápida,
-              direto no navegador.
+              App web feito em React que retorna rapidamente endereços precisos,
+              com interface intuitiva, responsiva e experiência fluida para o
+              usuário.
             </p>
             <div className="tech">
               <p>React JS</p>
-              <p>Styled Components</p>
-              <p>React Router</p>
-              <p>File-Saver</p>
+              <p>HTML5</p>
+              <p>CSS3</p>
+              <p>API RESTful</p>
             </div>
             <div className="btns">
-              <button>Github</button>
-              <button>Deploy</button>
+              <a
+                href="https://github.com/GRodrigues10/Projeto-Busca-CEP-ReactJS"
+                target="_blank"
+              >
+                <button>Github</button>
+              </a>
+              <a
+                href="https://grodrigues10.github.io/Projeto-Busca-CEP-ReactJS/"
+                target="_blank"
+              >
+                <button>Deploy</button>
+              </a>
             </div>
           </div>
 
           <div className="card">
             <h3>Catify</h3>
-            <img src={file} alt="Capa do Conversor de Arquivos" />
+            <img src={cat} alt="Capa do Conversor de Arquivos" />
 
             <p>
-              App web que permite arrastar ou selecionar arquivos e convertê-los
-              em TXT, CSV, JSON, PNG ou JPG, com interface simples e rápida,
-              direto no navegador.
+              Catify é um site interativo que exibe fotos aleatórias de gatos de
+              diversas raças, oferecendo diversão e descobertas para amantes de
+              felinos.
             </p>
             <div className="tech">
               <p>HTML5</p>
@@ -195,94 +259,121 @@ function Details() {
               <p>API RESTful</p>
             </div>
             <div className="btns">
-              <button>Github</button>
-              <button>Deploy</button>
+              <a href="https://github.com/GRodrigues10/Catify" target="_blank">
+                <button>Github</button>
+              </a>
+              <a href="https://grodrigues10.github.io/Catify/" target="_blank">
+                <button>Deploy</button>
+              </a>
             </div>
           </div>
 
           <div className="card">
             <h3>Buscador Climático</h3>
-            <img src={file} alt="Capa do Conversor de Arquivos" />
+            <img src={clima} alt="Capa do Conversor de Arquivos" />
 
             <p>
-              App web que permite arrastar ou selecionar arquivos e convertê-los
-              em TXT, CSV, JSON, PNG ou JPG, com interface simples e rápida,
-              direto no navegador.
+              App web que mostra a previsão do tempo em qualquer cidade usando a
+              API Weather, com design moderno, responsivo e fácil de usar.
             </p>
             <div className="tech">
               <p>React JS</p>
-              <p>API RESTful</p>
               <p>HTML5</p>
               <p>CSS3</p>
+              <p>API RESTful</p>
             </div>
             <div className="btns">
-              <button>Github</button>
-              <button>Deploy</button>
+              <a
+                href="https://github.com/GRodrigues10/Projeto-Clima"
+                target="_blank"
+              >
+                <button>Github</button>
+              </a>
+              <a
+                href="https://grodrigues10.github.io/Projeto-Clima/"
+                target="_blank"
+              >
+                <button>Deploy</button>
+              </a>
             </div>
           </div>
 
-             <div className="card">
+          <div className="card">
             <h3>Projeto Tecnologia</h3>
-            <img src={file} alt="Capa do Conversor de Arquivos" />
+            <img src={tech} alt="Capa do Conversor de Arquivos" />
 
             <p>
-              App web que permite arrastar ou selecionar arquivos e convertê-los
-              em TXT, CSV, JSON, PNG ou JPG, com interface simples e rápida,
-              direto no navegador.
+              Página web criada em HTML5 e CSS3 como exercício prático para
+              curso em vídeo, demonstrando estrutura e estilo básicos de
+              desenvolvimento web.
             </p>
             <div className="tech">
               <p>HTML5</p>
               <p>CSS3</p>
             </div>
             <div className="btns">
-              <button>Github</button>
-              <button>Deploy</button>
+              <a
+                href="https://github.com/GRodrigues10/Projeto-Android"
+                target="_blank"
+              >
+                <button>Github</button>
+              </a>
+              <a
+                href="https://grodrigues10.github.io/Projeto-Android/"
+                target="_blank"
+              >
+                <button>Deploy</button>
+              </a>
             </div>
           </div>
 
-             <div className="card">
+          <div className="card">
             <h3>Confeitaria Online</h3>
-            <img src={file} alt="Capa do Conversor de Arquivos" />
+            <img src={cake} alt="Capa do Conversor de Arquivos" />
 
             <p>
-              App web que permite arrastar ou selecionar arquivos e convertê-los
-              em TXT, CSV, JSON, PNG ou JPG, com interface simples e rápida,
-              direto no navegador.
+              Site desenvolvido em Bootstrap 5, moderno e responsivo,
+              apresentando doces e produtos com foco em uma experiência
+              intuitiva e agradável.
             </p>
             <div className="tech">
               <p>HTML5</p>
               <p>Bootstrap 5</p>
             </div>
             <div className="btns">
-              <button>Github</button>
-              <button>Deploy</button>
+              <a
+                href="https://github.com/GRodrigues10/Projeto-Bootstrap"
+                target="_blank"
+              >
+                <button>Github</button>
+              </a>
+              <a
+                href="https://grodrigues10.github.io/Projeto-Bootstrap/"
+                target="_blank"
+              >
+                <button>Deploy</button>
+              </a>
             </div>
           </div>
 
-          
-
-
-             <div className="card">
+          <div className="card">
             <h3>Projeto Cordel</h3>
-            <img src={file} alt="Capa do Conversor de Arquivos" />
+            <img src={cordel} alt="Capa do Conversor de Arquivos" />
 
             <p>
-              App web que permite arrastar ou selecionar arquivos e convertê-los
-              em TXT, CSV, JSON, PNG ou JPG, com interface simples e rápida,
-              direto no navegador.
+              Página web criada em HTML e CSS como exercício do Curso em
+              Vídeo, com layout responsivo e efeito parallax, destacando versos
+              e tipografia temática.
             </p>
             <div className="tech">
               <p>HTML5</p>
               <p>CSS3</p>
             </div>
             <div className="btns">
-              <button>Github</button>
-              <button>Deploy</button>
+              <a href="https://github.com/GRodrigues10/Projeto-Cordel" target="_blank"><button>Github</button></a>
+              <a href="https://grodrigues10.github.io/Projeto-Cordel/" target="_blank"><button>Deploy</button></a>
             </div>
           </div>
-
-
-          
         </div>
         <button onClick={back}>Voltar</button>
       </div>

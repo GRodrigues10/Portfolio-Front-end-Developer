@@ -96,6 +96,7 @@ export const StylesSection5 = styled.div`
     border: 1px solid lightblue;
     outline: none;
     color: white;
+    resize: none;
   }
 
   .content-section button {
