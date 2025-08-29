@@ -37,9 +37,15 @@ function Section1() {
             interfaces modernas, responsivas e centradas na experiência do
             usuário.
           </p>
-          <div className="btn">
-            <button>Currículo</button>
-          </div>
+     <div className="btn">
+  <a
+    href="/Portfolio-Front-end-Developer/curriculo_gabriel.pdf"
+    download="Gabriel_Rodrigues_Curriculo.pdf"
+  >
+    <button>Currículo</button>
+  </a>
+</div>
+
         </div>
 
         <div className="perfil">
