@@ -1,14 +1,19 @@
-# Portfólio
-Este é meu portfólio, onde compartilho meus projetos e um pouco da minha trajetória no mundo da tecnologia.
+# 💻 Meu Portfólio
 
-<h2>Tecnologias Utilizadas:</h2>
+Olá! Aqui compartilho meus **projetos** e um pouco da minha **trajetória no mundo da tecnologia**.  
 
-- Mobile-first: Layout adaptável para todos os dispositivos.
+---
 
-- Componentização: Estrutura modular e reutilizável.
+## 🛠 Tecnologias
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Styled Components](https://img.shields.io/badge/Styled--Components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-- Seção de projetos: Cards com imagens, descrições e links (GitHub/deploy).
+---
 
-- Interatividade: Navegação fluida e elementos dinâmicos.
-
-- Design limpo e organizado: Experiência agradável para o usuário.
+## ✨ Destaques
+- **Mobile-first:** Layout adaptável para todos os dispositivos  
+- **Componentização:** Estrutura modular e reutilizável  
+- **Seção de projetos:** Cards com imagens, descrições e link
