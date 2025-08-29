@@ -9,10 +9,9 @@ import cep from "../../../assets/cep3.png";
 import clima from "../../../assets/clima2.png";
 import cake from "../../../assets/cake.png";
 import tech from "../../../assets/technology.png";
-import cordel from "../../../assets/cordel.png";
+import cordel from "../../../assets/img_cordel";
 import net from "../../../assets/net.png";
 import { useNavigate } from "react-router-dom";
-import { useEffect } from "react";
 
 function Details() {
   const navigate = useNavigate();
