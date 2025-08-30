@@ -29,11 +29,11 @@ function Section1() {
             Desenvolvedor Front-end formado em Análise e Desenvolvimento de
             Sistemas pela Universidade La Salle. Tenho experiência prática em
             projetos web utilizando tecnologias como{" "}
-            <span className="tech react">React JS</span>,{" "}
+            <span className="tech react">React</span>,{" "}
             <span className="tech js">JavaScript</span>,{" "}
             <span className="tech html">HTML</span>,{" "}
             <span className="tech css">CSS</span> e{" "}
-            <span className="tech node">Node JS</span>, com foco em criar
+            <span className="tech node">Node</span>, com foco em criar
             interfaces modernas, responsivas e centradas na experiência do
             usuário.
           </p>
