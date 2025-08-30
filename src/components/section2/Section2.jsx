@@ -36,8 +36,8 @@ function Section2() {
           <div className="p3">
             <h3>Cursos</h3>
             <li>Curso de Html5, CSS3 e JavaScript</li>
-            <li>Curso de React.js e Next.js</li>
-            <li>Curso de Node.js e TypeScript</li>
+            <li>Curso de React e Next</li>
+            <li>Curso de Node e TypeScript</li>
           </div>
 
        <div className="p4">
