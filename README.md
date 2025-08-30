@@ -1,12 +1,28 @@
-# React + Vite
+# 💻 Meu Portfólio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Olá! Aqui compartilho meus **projetos** e um pouco da minha **trajetória no mundo da tecnologia**.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tecnologias
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![Styled Components](https://img.shields.io/badge/Styled--Components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Destaques
+- **Mobile-first:** Layout adaptável para todos os dispositivos.  
+- **Componentização:** Estrutura modular e reutilizável. 
+- **Navegação:** Páginas e seções conectadas com **React Router**.  
+- **Seção de projetos:** Cards com imagens, descrições e links (GitHub/deploy).
+- **Interatividade:** Navegação fluida e elementos dinâmicos.
+- **Contato:** Possibilidade de enviar mensagem ou acessar links direto na seção de contato do portfólio.
+- **Design limpo e organizado:** Experiência agradável para o usuário.  
+
+---
+
+### Link de Acesso: https://grodrigues10.github.io/Portfolio-Front-end-Developer/
