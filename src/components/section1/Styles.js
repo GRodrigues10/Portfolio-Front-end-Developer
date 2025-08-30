@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import back from '../../assets/backk2.png'
 
 export const StylesSection1 = styled.div`
   min-height: 100vh;
@@ -7,6 +8,11 @@ padding-top: 100px; /* mesma altura do header */
   overflow-x: hidden;
   background-color: #0d0d0d;
   /* background-color: black; */
+  background-image: url(${back});
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
 
 
