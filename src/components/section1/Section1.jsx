@@ -39,7 +39,7 @@ function Section1() {
           </p>
      <div className="btn">
   <a
-    href="/Portfolio-Front-end-Developer/curriculo_frontend.pdf"
+    href="/Portfolio-Front-end-Developer/curriculo_frontend_developer.pdf"
     download="Gabriel_Rodrigues_Curriculo.pdf"
   >
     <button>Currículo</button>
