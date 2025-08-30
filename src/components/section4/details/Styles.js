@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import background from '../../../assets/bac.png'
+import back from "../../../assets/back.png";
 
 export const StylesDetails = styled.div`
   width: 100%;
@@ -11,11 +12,12 @@ export const StylesDetails = styled.div`
   padding: 30px;
   padding-top: 60px;
   box-sizing: border-box;
-  background-image: url(${background});
+    background-image: url(${back});
   background-position: center center;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-repeat: no-repeat;
   background-size: cover;
+
 
   .content-section {
     width: 100%;
@@ -174,6 +176,12 @@ export const StylesDetails = styled.div`
   }
 
   @media screen and (min-width: 768px) {
+      background-image: url(${background});
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+      background-attachment: fixed;
     .cards {
       display: grid;
       grid-template-columns: repeat(2, 1fr);

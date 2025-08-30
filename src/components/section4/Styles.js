@@ -1,16 +1,16 @@
 import styled from "styled-components";
 import background from "../../assets/bac.png";
+import back from "../../assets/back.png";
 // import b1 from '../../assets/astrolens.png'
 
 export const StylesSection4 = styled.div`
   width: 100%;
   min-height: 100vh;
-  background-image: url(${background});
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
   color: #e6e6fa;
   display: flex;
+  background-image: url(${back});
+  background-position: center center;
+  background-size: cover;
   align-items: center;
   justify-content: center;
 
@@ -179,6 +179,10 @@ export const StylesSection4 = styled.div`
   }
 
   @media screen and (min-width: 768px) {
+      background-image: url(${background});
+  background-size: cover;
+  background-position: center;
+      background-attachment: fixed;
     .cards {
       display: grid;
       grid-template-columns: repeat(2, 1fr);

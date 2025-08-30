@@ -12,7 +12,7 @@ padding-top: 100px; /* mesma altura do header */
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
 
 
 
@@ -189,6 +189,7 @@ p {
   }
 
   @media screen and (min-width: 768px) {
+      background-attachment: fixed;
     height: 100vh;
     .content-section {
       flex-direction: row;

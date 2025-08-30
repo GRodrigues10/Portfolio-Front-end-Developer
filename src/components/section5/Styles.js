@@ -6,7 +6,7 @@ export const StylesSection5 = styled.div`
   background-image: url(${contact});
   background-size: cover;
   background-position: center center;
-  background-attachment: fixed;
+  background-attachment: scroll;
   color: #e6e6fa;
   display: flex;
   align-items: center;
@@ -140,6 +140,7 @@ export const StylesSection5 = styled.div`
   }
 
   @media screen and (min-width: 768px) {
+      background-attachment: fixed;
      min-height: 100vh;
     .content-section h1 {
       font-size: 2.2rem;

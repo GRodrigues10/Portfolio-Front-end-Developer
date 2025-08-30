@@ -8,7 +8,7 @@ export const StylesSection3 = styled.div`
   background: url(${back});
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: scroll;
   color: #dcdcdc; /* texto base */
   display: flex;
   align-items: center;
@@ -99,6 +99,7 @@ export const StylesSection3 = styled.div`
   }
 
   @media screen and (min-width: 768px){
+      background-attachment: fixed;
     .content-section .skills div {
       width: 200px;
       height: 150px;

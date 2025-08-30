@@ -5,7 +5,7 @@ export const StylesSection2 = styled.div`
   width: 100%;
   min-height: 100vh;
   background: url(${back});
-  background-attachment: fixed;
+    background-attachment: scroll;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -90,6 +90,8 @@ export const StylesSection2 = styled.div`
 
     /* Grid responsivo */
     @media screen and (min-width: 768px) {
+      background-attachment: fixed;
+      
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 20px;
@@ -114,6 +116,7 @@ export const StylesSection2 = styled.div`
 
   /* Responsividade da content-section */
   @media screen and (min-width: 768px) {
+    background-attachment: fixed;
     .content-section h1 {
       font-size: 2.2rem;
     }
