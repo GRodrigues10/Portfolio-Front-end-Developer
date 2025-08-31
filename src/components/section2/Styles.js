@@ -4,7 +4,7 @@ import back from "../../assets/backgroundPortfolio_.png";
 export const StylesSection2 = styled.div`
   width: 100%;
   min-height: 100vh;
-  /* background: url(${back}); */
+  
 
  
     background-color: #0A001A ; 
@@ -92,6 +92,7 @@ export const StylesSection2 = styled.div`
 
     /* Grid responsivo */
     @media screen and (min-width: 768px) {
+       background: url(${back}); 
       background-attachment: fixed;
       
       display: grid;
