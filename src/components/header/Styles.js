@@ -77,7 +77,7 @@ export const StylesHeader = styled.header`
     }
 
     .menu-desktop a {
-      color: #b3b3b3;
+      color: #ededed;;
       text-decoration: none;
       font-size: 1rem;
       transition: 0.4s ease;
