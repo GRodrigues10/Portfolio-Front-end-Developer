@@ -186,8 +186,7 @@ function Details() {
 
             <p>
               App web que permite arrastar ou selecionar arquivos e convertê-los
-              em TXT, CSV, JSON, PNG ou JPG, com interface simples e rápida,
-              direto no navegador.
+              em TXT, CSV, JSON, PNG ou JPG, com interface simples e rápida.
             </p>
             <div className="tech">
               <p>React JS</p>
@@ -360,7 +359,7 @@ function Details() {
             <img src={cordel} alt="Capa do Conversor de Arquivos" />
 
             <p>
-              Página web criada em HTML e CSS como exercício do Curso em
+              Página web criada como exercício do Curso em
               Vídeo, com layout responsivo e efeito parallax, destacando versos
               e tipografia temática.
             </p>
