@@ -84,7 +84,7 @@ export const StylesSection2 = styled.div`
 
   /* Media Query 768px */
   @media screen and (min-width: 768px) {
-    background: url(${back}) center center / cover no-repeat fixed;
+    background: url(${back}) top center/ cover no-repeat fixed;
 
     .content-section {
       h1 {
