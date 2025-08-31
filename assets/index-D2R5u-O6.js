@@ -954,12 +954,15 @@ p {
     transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
     background: rgba(0, 119, 255, 0.15);
     border: 1px solid rgba(0, 200, 255, 0.3);
+
+ 
   }
 
   .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 25px rgba(80, 0, 120, 0.6),
       0 0 20px 5px rgba(80, 0, 120, 0.5);
+      backdrop-filter: blur(1px); 
   }
 
   .card h3 {
@@ -971,6 +974,15 @@ p {
     font-size: 0.95rem; /* menor em geral */
     text-align: justify;
     margin-bottom: 15px;
+    text-shadow: 1px 1px 2px #000;
+   color: white;
+    border-radius: 5px;
+    background-color: #00000086;
+    padding: 8px 5px;
+    
+
+   
+
   }
 
   /* ==================== Card Image ==================== */
@@ -1154,7 +1166,7 @@ p {
       font-size: 1.5rem; /* menor */
     }
     .card p {
-      font-size: 1rem !important; /* menor */
+      font-size: 1.04rem !important; /* menor */
     }
     .tech p {
       font-size: 0.75rem !important;
@@ -1170,7 +1182,7 @@ p {
       font-size: 0.9rem;
     }
   }
-`,sh="/Portfolio-Front-end-Developer/assets/produ-woKPoc_u.png",fh="/Portfolio-Front-end-Developer/assets/astro3-014Vyp6s.png",dh="/Portfolio-Front-end-Developer/assets/file2-B6YifcyF.png",hh="/Portfolio-Front-end-Developer/assets/lightsaber-BXEyDd8g.png",mh="/Portfolio-Front-end-Developer/assets/backend-BC0VUoLu.png",ph="/Portfolio-Front-end-Developer/assets/net-DklSMyDo.png";function mv(){const i=Bo(),c=()=>{i("/details")},o=()=>{alert("Esse é um projeto puramente Back-end!")},r=()=>{alert("Esse projeto ainda está em desenvolvimento!")};return f.jsx(hv,{id:"projetos",children:f.jsxs("div",{className:"content-section",children:[f.jsx("h1",{children:"Projetos"}),f.jsxs("div",{className:"cards",children:[f.jsxs("div",{className:"card",children:[f.jsx("h3",{children:"AstroLens"}),f.jsx("img",{src:fh,alt:"Capa do AstroLens"}),f.jsx("p",{children:"AstroLens é um app web em React que explora astronomia: planetas, imagens da NASA, APOD e clima espacial, com interface moderna e intuitiva."}),f.jsxs("div",{className:"tech",children:[f.jsx("p",{children:"React JS"}),f.jsx("p",{children:"Styled Components"}),f.jsx("p",{children:"React Router"}),f.jsx("p",{children:"APIs RESTful"}),f.jsx("p",{children:"Mobile First"}),f.jsx("p",{children:"LocalStorage"})]}),f.jsxs("div",{className:"btns",children:[f.jsx("a",{href:"https://github.com/GRodrigues10/AstroLens",target:"_blank",children:f.jsx("button",{children:"Github"})}),f.jsx("a",{href:"https://grodrigues10.github.io/AstroLens/",target:"_blank",children:f.jsx("button",{children:"Deploy"})})]})]}),f.jsxs("div",{className:"card",children:[f.jsx("h3",{children:"Netflix-Clone"}),f.jsx("img",{src:ph,alt:"Capa da Netfix"}),f.jsx("p",{children:"Clone da Netflix em React, modular e responsivo, integrado à API TMDB para exibir filmes, séries e detalhes com design moderno e otimizado."}),f.jsxs("div",{className:"tech",children:[f.jsx("p",{children:"React JS"}),f.jsx("p",{children:"Styled Components"}),f.jsx("p",{children:"React Router"}),f.jsx("p",{children:"Mobile First"}),f.jsx("p",{children:"APIs RESTful"})]}),f.jsxs("div",{className:"btns",children:[f.jsx("a",{href:"https://github.com/GRodrigues10/Movies-ReactJS",target:"_blank",children:f.jsx("button",{children:"Github"})}),f.jsx("a",{href:"https://grodrigues10.github.io/Movies-ReactJS/",target:"_blank",children:f.jsx("button",{children:"Deploy"})})]})]}),f.jsxs("div",{className:"card",children:[f.jsx("h3",{children:"API Star Wars"}),f.jsx("img",{src:hh,alt:"Capa do Star Wars"}),f.jsx("p",{children:"App web de Star Wars com full stack, exibindo filmes e séries, mostrando detalhes de cada título em interface moderna e responsiva."}),f.jsxs("div",{className:"tech",children:[f.jsx("p",{children:"React JS"}),f.jsx("p",{children:"Styled Components"}),f.jsx("p",{children:"React Router"}),f.jsx("p",{children:"MongoDB"}),f.jsx("p",{children:"node JS"}),f.jsx("p",{children:"Endpoints RESTful"})]}),f.jsxs("div",{className:"btns",children:[f.jsx("button",{onClick:r,children:"Github"}),f.jsx("button",{onClick:r,children:"Deploy"})]})]}),f.jsxs("div",{className:"card",children:[f.jsx("h3",{children:"API de Filmes"}),f.jsx("img",{src:mh,alt:"Capa da API de Filmes"}),f.jsx("p",{children:"Projeto de API de séries feito na faculdade com Express.js e MongoDB, permitindo adicionar, listar, atualizar, excluir e agrupar séries RESTful."}),f.jsxs("div",{className:"tech",children:[f.jsx("p",{children:"JavaScript"}),f.jsx("p",{children:"MongoDB"}),f.jsx("p",{children:"Express"}),f.jsx("p",{children:"Insommia"}),f.jsx("p",{children:"Endpoints RESTful"})]}),f.jsxs("div",{className:"btns",children:[f.jsx("a",{href:"https://github.com/GRodrigues10/Projeto-API-Faculdade",target:"_blank",children:f.jsx("button",{children:"Github"})}),f.jsx("button",{onClick:o,children:"Deploy"})]})]}),f.jsxs("div",{className:"card",children:[f.jsx("h3",{children:"Produtime"}),f.jsx("img",{src:sh,alt:"Capa do Produtime"}),f.jsx("p",{children:"Produtime é um app responsivo que ajuda a organizar tarefas, acompanhar progresso e otimizar tempo, ideal para profissionais focados e produtivos."}),f.jsxs("div",{className:"tech",children:[f.jsx("p",{children:"React JS"}),f.jsx("p",{children:"Styled Components"}),f.jsx("p",{children:"React Router"}),f.jsx("p",{children:"Mobile First"}),f.jsx("p",{children:"UuID"}),f.jsx("p",{children:"LocalStorage"})]}),f.jsxs("div",{className:"btns",children:[f.jsx("a",{href:"https://github.com/GRodrigues10/produtime-reactjs",target:"_blank",children:f.jsx("button",{children:"Github"})}),f.jsx("a",{href:"https://grodrigues10.github.io/produtime-reactjs/",target:"_blank",children:f.jsx("button",{children:"Deploy"})})]})]}),f.jsxs("div",{className:"card",children:[f.jsx("h3",{children:"Conversor de Arquivos"}),f.jsx("img",{src:dh,alt:"Capa do Conversor de Arquivos"}),f.jsx("p",{children:"App web que permite arrastar ou selecionar arquivos e convertê-los em TXT, CSV, JSON, PNG ou JPG, com interface simples e rápida, direto no navegador."}),f.jsxs("div",{className:"tech",children:[f.jsx("p",{children:"React JS"}),f.jsx("p",{children:"Styled Components"}),f.jsx("p",{children:"React Router"}),f.jsx("p",{children:"File-Saver"})]}),f.jsxs("div",{className:"btns",children:[f.jsx("a",{href:"https://github.com/GRodrigues10/File-Converter",target:"_blank",children:f.jsx("button",{children:"Github"})}),f.jsx("a",{href:"https://grodrigues10.github.io/File-Converter/",target:"_blank",children:f.jsx("button",{children:"Deploy"})})]})]})]}),f.jsx("div",{className:"see-more",children:f.jsx("button",{onClick:c,children:"Ver Mais"})})]})})}const pv="/Portfolio-Front-end-Developer/assets/contact-CEzY32D9.png",gv=wt.div`
+`,sh="/Portfolio-Front-end-Developer/assets/produ-woKPoc_u.png",fh="/Portfolio-Front-end-Developer/assets/astro3-014Vyp6s.png",dh="/Portfolio-Front-end-Developer/assets/file2-B6YifcyF.png",hh="/Portfolio-Front-end-Developer/assets/lightsaber-BXEyDd8g.png",mh="/Portfolio-Front-end-Developer/assets/backend-BC0VUoLu.png",ph="/Portfolio-Front-end-Developer/assets/net-DklSMyDo.png";function mv(){const i=Bo(),c=()=>{i("/details")},o=()=>{alert("Esse é um projeto puramente Back-end!")},r=()=>{alert("Esse projeto ainda está em desenvolvimento!")};return f.jsx(hv,{id:"projetos",children:f.jsxs("div",{className:"content-section",children:[f.jsx("h1",{children:"Projetos"}),f.jsxs("div",{className:"cards",children:[f.jsxs("div",{className:"card",children:[f.jsx("h3",{children:"AstroLens"}),f.jsx("img",{src:fh,alt:"Capa do AstroLens"}),f.jsx("p",{children:"Aplicação web em React que explora astronomia: planetas, imagens da NASA, APOD e clima espacial, com design moderno e intuitivo."}),f.jsxs("div",{className:"tech",children:[f.jsx("p",{children:"React JS"}),f.jsx("p",{children:"Styled Components"}),f.jsx("p",{children:"React Router"}),f.jsx("p",{children:"APIs RESTful"}),f.jsx("p",{children:"Mobile First"}),f.jsx("p",{children:"LocalStorage"})]}),f.jsxs("div",{className:"btns",children:[f.jsx("a",{href:"https://github.com/GRodrigues10/AstroLens",target:"_blank",children:f.jsx("button",{children:"Github"})}),f.jsx("a",{href:"https://grodrigues10.github.io/AstroLens/",target:"_blank",children:f.jsx("button",{children:"Deploy"})})]})]}),f.jsxs("div",{className:"card",children:[f.jsx("h3",{children:"Netflix-Clone"}),f.jsx("img",{src:ph,alt:"Capa da Netfix"}),f.jsx("p",{children:"Clone da Netflix em React, modular e responsivo, integrado à API TMDB para exibir filmes, séries e detalhes com design moderno e otimizado."}),f.jsxs("div",{className:"tech",children:[f.jsx("p",{children:"React JS"}),f.jsx("p",{children:"Styled Components"}),f.jsx("p",{children:"React Router"}),f.jsx("p",{children:"Mobile First"}),f.jsx("p",{children:"APIs RESTful"})]}),f.jsxs("div",{className:"btns",children:[f.jsx("a",{href:"https://github.com/GRodrigues10/Movies-ReactJS",target:"_blank",children:f.jsx("button",{children:"Github"})}),f.jsx("a",{href:"https://grodrigues10.github.io/Movies-ReactJS/",target:"_blank",children:f.jsx("button",{children:"Deploy"})})]})]}),f.jsxs("div",{className:"card",children:[f.jsx("h3",{children:"API Star Wars"}),f.jsx("img",{src:hh,alt:"Capa do Star Wars"}),f.jsx("p",{children:"App web de Star Wars com full stack, exibindo filmes e séries, mostrando detalhes de cada título em interface moderna e responsiva."}),f.jsxs("div",{className:"tech",children:[f.jsx("p",{children:"React JS"}),f.jsx("p",{children:"Styled Components"}),f.jsx("p",{children:"React Router"}),f.jsx("p",{children:"MongoDB"}),f.jsx("p",{children:"node JS"}),f.jsx("p",{children:"Endpoints RESTful"})]}),f.jsxs("div",{className:"btns",children:[f.jsx("button",{onClick:r,children:"Github"}),f.jsx("button",{onClick:r,children:"Deploy"})]})]}),f.jsxs("div",{className:"card",children:[f.jsx("h3",{children:"API de Filmes"}),f.jsx("img",{src:mh,alt:"Capa da API de Filmes"}),f.jsx("p",{children:"Projeto de API de séries feito na faculdade com Express.js e MongoDB, permitindo adicionar, listar, atualizar, excluir e agrupar séries RESTful."}),f.jsxs("div",{className:"tech",children:[f.jsx("p",{children:"JavaScript"}),f.jsx("p",{children:"MongoDB"}),f.jsx("p",{children:"Express"}),f.jsx("p",{children:"Insommia"}),f.jsx("p",{children:"Endpoints RESTful"})]}),f.jsxs("div",{className:"btns",children:[f.jsx("a",{href:"https://github.com/GRodrigues10/Projeto-API-Faculdade",target:"_blank",children:f.jsx("button",{children:"Github"})}),f.jsx("button",{onClick:o,children:"Deploy"})]})]}),f.jsxs("div",{className:"card",children:[f.jsx("h3",{children:"Produtime"}),f.jsx("img",{src:sh,alt:"Capa do Produtime"}),f.jsx("p",{children:"App web responsivo para organizar tarefas, acompanhar progresso e otimizar tempo, ideal para profissionais focados e produtivos."}),f.jsxs("div",{className:"tech",children:[f.jsx("p",{children:"React JS"}),f.jsx("p",{children:"Styled Components"}),f.jsx("p",{children:"React Router"}),f.jsx("p",{children:"Mobile First"}),f.jsx("p",{children:"UuID"}),f.jsx("p",{children:"LocalStorage"})]}),f.jsxs("div",{className:"btns",children:[f.jsx("a",{href:"https://github.com/GRodrigues10/produtime-reactjs",target:"_blank",children:f.jsx("button",{children:"Github"})}),f.jsx("a",{href:"https://grodrigues10.github.io/produtime-reactjs/",target:"_blank",children:f.jsx("button",{children:"Deploy"})})]})]}),f.jsxs("div",{className:"card",children:[f.jsx("h3",{children:"Conversor de Arquivos"}),f.jsx("img",{src:dh,alt:"Capa do Conversor de Arquivos"}),f.jsx("p",{children:"App web que permite arrastar ou selecionar arquivos e convertê-los em TXT, CSV, JSON, PNG ou JPG com interface simples e ágil."}),f.jsxs("div",{className:"tech",children:[f.jsx("p",{children:"React JS"}),f.jsx("p",{children:"Styled Components"}),f.jsx("p",{children:"React Router"}),f.jsx("p",{children:"File-Saver"})]}),f.jsxs("div",{className:"btns",children:[f.jsx("a",{href:"https://github.com/GRodrigues10/File-Converter",target:"_blank",children:f.jsx("button",{children:"Github"})}),f.jsx("a",{href:"https://grodrigues10.github.io/File-Converter/",target:"_blank",children:f.jsx("button",{children:"Deploy"})})]})]})]}),f.jsx("div",{className:"see-more",children:f.jsx("button",{onClick:c,children:"Ver Mais"})})]})})}const pv="/Portfolio-Front-end-Developer/assets/contact-CEzY32D9.png",gv=wt.div`
   width: 100%;
   min-height: 100vh;
   
@@ -1447,6 +1459,10 @@ p {
     font-size: 0.95rem;
     text-align: justify;
     margin-bottom: 15px;
+    text-shadow: 1px 1px 1px black;
+    background-color: #00000086;
+    padding: 8px 5px;
+    border-radius: 5px;
   }
 
   .card img {
@@ -1622,7 +1638,7 @@ p {
       font-size: 1.5rem;
     }
     .card p {
-      font-size: 1rem !important;
+      font-size: 1.05rem !important;
     }
     .tech p {
       font-size: 0.75rem !important;
