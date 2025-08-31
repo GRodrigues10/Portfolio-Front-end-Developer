@@ -69,6 +69,7 @@ Please change the parent <Route path="${B}"> to <Route path="${B==="/"?"*":`${B}
   align-items: center;
   justify-content: space-between;
   padding-inline: 20px;
+  
 
   z-index: 99999;
   transform: translateY(-100%);
@@ -243,9 +244,10 @@ Please change the parent <Route path="${B}"> to <Route path="${B==="/"?"*":`${B}
   background-color: #00000075;
 
   p {
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-decoration: none;
     font-weight: bold;
+    text-align: center;
   }
   a {
     text-decoration: none;
@@ -274,15 +276,19 @@ Please change the parent <Route path="${B}"> to <Route path="${B==="/"?"*":`${B}
 `;function w3(){return f.jsx(M3,{children:f.jsxs("p",{children:["© Site criado por ",f.jsx("a",{href:"",children:"Gabriel da Costa Rodrigues"})]})})}const N3="/Portfolio-Front-end-Developer/assets/backk2-C6OP1j_g.png",U3=wt.div`
   min-height: 100vh;
 padding-top: 100px; /* mesma altura do header */
+/* display: flex;
+align-items: center;
+justify-content: center; */
+height: auto;
   width: 100%;
-  overflow-x: hidden;
+ overflow-x: hidden;
   background-color: #0d0d0d;
   /* background-color: black; */
   background-image: url(${N3});
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+ 
 
 
 
@@ -302,6 +308,9 @@ padding-top: 100px; /* mesma altura do header */
     margin-top: 30px;
     margin-bottom: 30px;
   }
+
+
+  
 
   /* Ícones sociais com animação suave de entrada em cascata */
   .social-medias svg {
@@ -459,14 +468,21 @@ p {
   }
 
   @media screen and (min-width: 768px) {
-      background-attachment: fixed;
+    padding-top:0;
     height: 100vh;
+      background-attachment: fixed;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+    /* height: 100vh; */
     .content-section {
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
       padding: 20px 50px;
       height: 80%;
+      gap: 50px;
     }
     .social-medias {
       flex-direction: column;
@@ -490,18 +506,24 @@ p {
       width: 90%;
      }
     h2 { 
-      font-size: 1.65rem;
+      font-size: 1.6rem;
       width: 90%;
       
 
     }
+   
     p { font-size: 1.2rem; }
-    .btn button { font-size: 1.2rem; }
+    .btn button { font-size: 1.1rem; }
     .perfil img{
   margin-top: 0px;
+  width: 200px;
+  height: 200px;
 
     }
   }
+
+
+
 
   @media screen and (min-width: 992px) {
     .content-text {
@@ -521,11 +543,20 @@ p {
       margin: 0;
       width: 100%;
     }
-    h1 { font-size: 3rem; }
-    h2 { font-size: 1.9rem; }
+    .content-text h1 { font-size: 2.5rem }
+    h2 { font-size: 1.9rem }
     p { line-height: 1.5; }
-    .btn { width: 90%; }
-    .perfil img { margin-top: 0px; }
+    .btn { 
+      width: 90%; 
+    
+  }
+  .btn button{
+    font-size: 1.2rem;
+  }
+    .perfil img { margin-top: 0px;
+      width: 250px;
+      height: 250px;
+    }
   }
 
   @media screen and (min-width: 1200px) {
@@ -550,7 +581,7 @@ p {
     .content-text h1,
     .content-text h2,
     .content-text p { margin: 0; width: 100%; }
-    h1 { font-size: 3.5rem; }
+    h1 { font-size: 3.5rem !important; }
     h2 { font-size: 2rem; }
     p { line-height: 1.6; }
     .btn { width: 90%; }
@@ -721,13 +752,13 @@ p {
   align-items: center;
   justify-content:center;
    scroll-margin-top: 100px; 
-
+  
   .content-section {
+    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 30px;
 
   }
 
@@ -740,7 +771,7 @@ p {
 
   .content-section .skills {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     font-size: 2.5rem;
     gap: 20px;
     margin-bottom: 20px;
@@ -751,7 +782,7 @@ p {
     border-radius: 15px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 20px;
-    width: 150px;
+    width: 100%;
     text-align: center;
     transition: 0.4s ease;
     display: flex;
@@ -800,12 +831,20 @@ p {
   }
 
   @media screen and (min-width: 530px){
-    .content-section .skills {
-      grid-template-columns: repeat(3, 1fr);
+    .content-section .skills{
+      grid-template-columns: repeat(2, 1fr);
     }
+    .content-section{
+    padding: 30px;
+
+    }
+   
   }
 
   @media screen and (min-width: 768px){
+    .content-section .skills{
+      grid-template-columns: repeat(3, 1fr);
+    }
       background-attachment: fixed;
     .content-section .skills div {
       width: 200px;
