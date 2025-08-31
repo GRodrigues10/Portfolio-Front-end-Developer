@@ -58,12 +58,15 @@ export const StylesSection4 = styled.div`
     transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
     background: rgba(0, 119, 255, 0.15);
     border: 1px solid rgba(0, 200, 255, 0.3);
+
+ 
   }
 
   .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 25px rgba(80, 0, 120, 0.6),
       0 0 20px 5px rgba(80, 0, 120, 0.5);
+      backdrop-filter: blur(1px); 
   }
 
   .card h3 {
@@ -75,6 +78,15 @@ export const StylesSection4 = styled.div`
     font-size: 0.95rem; /* menor em geral */
     text-align: justify;
     margin-bottom: 15px;
+    text-shadow: 1px 1px 2px #000;
+   color: white;
+    border-radius: 5px;
+    background-color: #00000086;
+    padding: 8px 5px;
+    
+
+   
+
   }
 
   /* ==================== Card Image ==================== */
@@ -258,7 +270,7 @@ export const StylesSection4 = styled.div`
       font-size: 1.5rem; /* menor */
     }
     .card p {
-      font-size: 1rem !important; /* menor */
+      font-size: 1.04rem !important; /* menor */
     }
     .tech p {
       font-size: 0.75rem !important;

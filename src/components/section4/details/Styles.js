@@ -72,6 +72,10 @@ export const StylesDetails = styled.div`
     font-size: 0.95rem;
     text-align: justify;
     margin-bottom: 15px;
+    text-shadow: 1px 1px 1px black;
+    background-color: #00000086;
+    padding: 8px 5px;
+    border-radius: 5px;
   }
 
   .card img {
@@ -247,7 +251,7 @@ export const StylesDetails = styled.div`
       font-size: 1.5rem;
     }
     .card p {
-      font-size: 1rem !important;
+      font-size: 1.05rem !important;
     }
     .tech p {
       font-size: 0.75rem !important;

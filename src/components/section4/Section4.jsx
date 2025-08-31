@@ -20,8 +20,8 @@ function Section4() {
   };
 
   const inProgress = () => {
-    alert('Esse projeto ainda está em desenvolvimento!')
-  }
+    alert("Esse projeto ainda está em desenvolvimento!");
+  };
 
   return (
     <StylesSection4 id="projetos">
@@ -36,9 +36,8 @@ function Section4() {
             </div> */}
 
             <p>
-              AstroLens é um app web em React que explora astronomia: planetas,
-              imagens da NASA, APOD e clima espacial, com interface moderna e
-              intuitiva.
+              Aplicação web em React que explora astronomia: planetas, imagens
+              da NASA, APOD e clima espacial, com design moderno e intuitivo.
             </p>
             <div className="tech">
               <p>React JS</p>
@@ -114,12 +113,9 @@ function Section4() {
               <p>Endpoints RESTful</p>
             </div>
             <div className="btns">
-             
-                <button onClick={inProgress}>Github</button>
-             
-             
-                <button onClick={inProgress}>Deploy</button>
-             
+              <button onClick={inProgress}>Github</button>
+
+              <button onClick={inProgress}>Deploy</button>
             </div>
           </div>
           <div className="card">
@@ -153,9 +149,8 @@ function Section4() {
             <img src={produtime} alt="Capa do Produtime" />
 
             <p>
-              Produtime é um app responsivo que ajuda a organizar tarefas,
-              acompanhar progresso e otimizar tempo, ideal para profissionais
-              focados e produtivos.
+              App web responsivo para organizar tarefas, acompanhar progresso e
+              otimizar tempo, ideal para profissionais focados e produtivos.
             </p>
             <div className="tech">
               <p>React JS</p>
@@ -186,8 +181,7 @@ function Section4() {
 
             <p>
               App web que permite arrastar ou selecionar arquivos e convertê-los
-              em TXT, CSV, JSON, PNG ou JPG, com interface simples e rápida,
-              direto no navegador.
+              em TXT, CSV, JSON, PNG ou JPG com interface simples e ágil.
             </p>
             <div className="tech">
               <p>React JS</p>
@@ -196,8 +190,18 @@ function Section4() {
               <p>File-Saver</p>
             </div>
             <div className="btns">
-              <a href="https://github.com/GRodrigues10/File-Converter" target="_blank"><button>Github</button></a>
-              <a href="https://grodrigues10.github.io/File-Converter/" target="_blank"><button>Deploy</button></a>
+              <a
+                href="https://github.com/GRodrigues10/File-Converter"
+                target="_blank"
+              >
+                <button>Github</button>
+              </a>
+              <a
+                href="https://grodrigues10.github.io/File-Converter/"
+                target="_blank"
+              >
+                <button>Deploy</button>
+              </a>
             </div>
           </div>
         </div>
