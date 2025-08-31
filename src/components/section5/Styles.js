@@ -3,7 +3,7 @@ import contact from "../../assets/contact.png";
 export const StylesSection5 = styled.div`
   width: 100%;
   min-height: 100vh;
-  background-image: url(${contact});
+  /* background-image: url(${contact}); */
   background-size: cover;
   background-position: center center;
   background-attachment: scroll;

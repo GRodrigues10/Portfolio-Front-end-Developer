@@ -6,7 +6,7 @@ import backmobile from "../../assets/back_mobile.png";
 export const StylesSection3 = styled.div`
   width: 100%;
   min-height: 100vh;
-  background: url(${backmobile});
+  /* background: url(${backmobile}); */
   background-size: cover;
   background-position: center center;
   background-attachment: scroll;
@@ -105,7 +105,7 @@ export const StylesSection3 = styled.div`
   }
 
   @media screen and (min-width: 768px){
-  background: url(${back});
+  /* background: url(${back}); */
  background-position:center center;
       background-attachment: fixed;
 

@@ -4,7 +4,7 @@ import back from "../../assets/backgroundPortfolio_.png";
 export const StylesSection2 = styled.div`
   width: 100%;
   min-height: 100vh;
-  background: url(${back});
+  /* background: url(${back}); */
     background-attachment: scroll;
   background-size: cover;
   background-position: center;

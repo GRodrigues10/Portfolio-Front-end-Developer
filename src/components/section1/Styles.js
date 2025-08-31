@@ -12,7 +12,7 @@ height: auto;
  overflow-x: hidden;
   background-color: #0d0d0d;
   /* background-color: black; */
-  background-image: url(${back});
+  /* background-image: url(${back}); */
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
