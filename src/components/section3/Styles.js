@@ -1,13 +1,14 @@
 // Styles.js
 import styled from "styled-components";
 import back from "../../assets/skills.png";
+import backmobile from "../../assets/back_mobile.png";
 
 export const StylesSection3 = styled.div`
   width: 100%;
   min-height: 100vh;
-  background: url(${back});
+  background: url(${backmobile});
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-attachment: scroll;
   color: #dcdcdc; /* texto base */
   display: flex;
@@ -104,10 +105,14 @@ export const StylesSection3 = styled.div`
   }
 
   @media screen and (min-width: 768px){
+  background: url(${back});
+ background-position:center center;
+      background-attachment: fixed;
+
+
     .content-section .skills{
       grid-template-columns: repeat(3, 1fr);
     }
-      background-attachment: fixed;
     .content-section .skills div {
       width: 200px;
       height: 150px;
