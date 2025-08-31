@@ -80,7 +80,7 @@ export const StylesSection4 = styled.div`
     margin-bottom: 15px;
     text-shadow: 1px 1px 2px #000;
    color: white;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #00000086;
     padding: 8px 5px;
     

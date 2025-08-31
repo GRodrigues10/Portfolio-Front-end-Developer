@@ -75,7 +75,7 @@ export const StylesDetails = styled.div`
     text-shadow: 1px 1px 1px black;
     background-color: #00000086;
     padding: 8px 5px;
-    border-radius: 5px;
+    border-radius: 10px;
   }
 
   .card img {
