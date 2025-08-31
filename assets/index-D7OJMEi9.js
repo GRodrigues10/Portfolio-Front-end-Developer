@@ -679,7 +679,7 @@ p {
 
   /* Media Query 768px */
   @media screen and (min-width: 768px) {
-    background: url(${J3}) center center / cover no-repeat fixed;
+    background: url(${J3}) top center/ cover no-repeat fixed;
 
     .content-section {
       h1 {
