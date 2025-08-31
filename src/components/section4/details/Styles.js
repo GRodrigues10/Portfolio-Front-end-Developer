@@ -13,8 +13,10 @@ export const StylesDetails = styled.div`
   padding-top: 60px;
   box-sizing: border-box;
     /* background-image: url(${back}); */
+    background-color: #0A001A ; 
+
   background-position: center center;
-  background-attachment: scroll;
+  /* background-attachment: scroll; */
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -176,7 +178,7 @@ export const StylesDetails = styled.div`
   }
 
   @media screen and (min-width: 768px) {
-      /* background-image: url(${background}); */
+      background-image: url(${background});
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

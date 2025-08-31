@@ -5,7 +5,9 @@ export const StylesSection2 = styled.div`
   width: 100%;
   min-height: 100vh;
   /* background: url(${back}); */
-    background-attachment: scroll;
+
+ 
+    background-color: #0A001A ; 
   background-size: cover;
   background-position: center;
   position: relative;

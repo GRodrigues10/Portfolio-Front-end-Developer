@@ -8,7 +8,7 @@ export const StylesSection4 = styled.div`
   min-height: 100vh;
   color: #e6e6fa;
   display: flex;
-  /* background-image: url(${back}); */
+  background-image: url(${back});
   background-position: center center;
   background-size: cover;
   align-items: center;
@@ -179,7 +179,7 @@ export const StylesSection4 = styled.div`
   }
 
   @media screen and (min-width: 768px) {
-      /* background-image: url(${background}); */
+      background-image: url(${background});
   background-size: cover;
   background-position: center;
       background-attachment: fixed;

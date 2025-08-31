@@ -6,10 +6,9 @@ import backmobile from "../../assets/back_mobile.png";
 export const StylesSection3 = styled.div`
   width: 100%;
   min-height: 100vh;
-  /* background: url(${backmobile}); */
+ background-color: #0d0d0d;
   background-size: cover;
   background-position: center center;
-  background-attachment: scroll;
   color: #dcdcdc; /* texto base */
   display: flex;
   align-items: center;
@@ -105,7 +104,7 @@ export const StylesSection3 = styled.div`
   }
 
   @media screen and (min-width: 768px){
-  /* background: url(${back}); */
+  background: url(${back});
  background-position:center center;
       background-attachment: fixed;
 
