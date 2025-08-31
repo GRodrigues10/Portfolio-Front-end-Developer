@@ -4,15 +4,19 @@ import back from '../../assets/backk2.png'
 export const StylesSection1 = styled.div`
   min-height: 100vh;
 padding-top: 100px; /* mesma altura do header */
+/* display: flex;
+align-items: center;
+justify-content: center; */
+height: auto;
   width: 100%;
-  overflow-x: hidden;
+ overflow-x: hidden;
   background-color: #0d0d0d;
   /* background-color: black; */
   background-image: url(${back});
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+ 
 
 
 
@@ -32,6 +36,9 @@ padding-top: 100px; /* mesma altura do header */
     margin-top: 30px;
     margin-bottom: 30px;
   }
+
+
+  
 
   /* Ícones sociais com animação suave de entrada em cascata */
   .social-medias svg {
@@ -189,14 +196,21 @@ p {
   }
 
   @media screen and (min-width: 768px) {
-      background-attachment: fixed;
+    padding-top:0;
     height: 100vh;
+      background-attachment: fixed;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+    /* height: 100vh; */
     .content-section {
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
       padding: 20px 50px;
       height: 80%;
+      gap: 50px;
     }
     .social-medias {
       flex-direction: column;
@@ -220,18 +234,24 @@ p {
       width: 90%;
      }
     h2 { 
-      font-size: 1.65rem;
+      font-size: 1.6rem;
       width: 90%;
       
 
     }
+   
     p { font-size: 1.2rem; }
-    .btn button { font-size: 1.2rem; }
+    .btn button { font-size: 1.1rem; }
     .perfil img{
   margin-top: 0px;
+  width: 200px;
+  height: 200px;
 
     }
   }
+
+
+
 
   @media screen and (min-width: 992px) {
     .content-text {
@@ -251,11 +271,20 @@ p {
       margin: 0;
       width: 100%;
     }
-    h1 { font-size: 3rem; }
-    h2 { font-size: 1.9rem; }
+    .content-text h1 { font-size: 2.5rem }
+    h2 { font-size: 1.9rem }
     p { line-height: 1.5; }
-    .btn { width: 90%; }
-    .perfil img { margin-top: 0px; }
+    .btn { 
+      width: 90%; 
+    
+  }
+  .btn button{
+    font-size: 1.2rem;
+  }
+    .perfil img { margin-top: 0px;
+      width: 250px;
+      height: 250px;
+    }
   }
 
   @media screen and (min-width: 1200px) {
@@ -280,7 +309,7 @@ p {
     .content-text h1,
     .content-text h2,
     .content-text p { margin: 0; width: 100%; }
-    h1 { font-size: 3.5rem; }
+    h1 { font-size: 3.5rem !important; }
     h2 { font-size: 2rem; }
     p { line-height: 1.6; }
     .btn { width: 90%; }

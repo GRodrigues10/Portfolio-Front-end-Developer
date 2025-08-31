@@ -14,13 +14,13 @@ export const StylesSection3 = styled.div`
   align-items: center;
   justify-content:center;
    scroll-margin-top: 100px; 
-
+  
   .content-section {
+    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 30px;
 
   }
 
@@ -33,7 +33,7 @@ export const StylesSection3 = styled.div`
 
   .content-section .skills {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     font-size: 2.5rem;
     gap: 20px;
     margin-bottom: 20px;
@@ -44,7 +44,7 @@ export const StylesSection3 = styled.div`
     border-radius: 15px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 20px;
-    width: 150px;
+    width: 100%;
     text-align: center;
     transition: 0.4s ease;
     display: flex;
@@ -93,12 +93,20 @@ export const StylesSection3 = styled.div`
   }
 
   @media screen and (min-width: 530px){
-    .content-section .skills {
-      grid-template-columns: repeat(3, 1fr);
+    .content-section .skills{
+      grid-template-columns: repeat(2, 1fr);
     }
+    .content-section{
+    padding: 30px;
+
+    }
+   
   }
 
   @media screen and (min-width: 768px){
+    .content-section .skills{
+      grid-template-columns: repeat(3, 1fr);
+    }
       background-attachment: fixed;
     .content-section .skills div {
       width: 200px;

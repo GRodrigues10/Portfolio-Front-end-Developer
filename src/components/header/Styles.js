@@ -12,6 +12,7 @@ export const StylesHeader = styled.header`
   align-items: center;
   justify-content: space-between;
   padding-inline: 20px;
+  
 
   z-index: 99999;
   transform: translateY(-100%);

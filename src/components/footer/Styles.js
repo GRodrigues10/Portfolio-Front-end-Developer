@@ -10,9 +10,10 @@ export const StylesFooter = styled.footer`
   background-color: #00000075;
 
   p {
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-decoration: none;
     font-weight: bold;
+    text-align: center;
   }
   a {
     text-decoration: none;
