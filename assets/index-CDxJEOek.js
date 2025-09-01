@@ -962,7 +962,7 @@ p {
     transform: translateY(-5px);
     box-shadow: 0 8px 25px rgba(80, 0, 120, 0.6),
       0 0 20px 5px rgba(80, 0, 120, 0.5);
-      backdrop-filter: blur(1px); 
+     
   }
 
   .card h3 {
@@ -978,7 +978,8 @@ p {
    color: white;
     border-radius: 10px;
     background-color: #00000086;
-    padding: 8px 5px;
+    padding: 10px;
+   
     
 
    
@@ -1166,10 +1167,10 @@ p {
       font-size: 1.5rem; /* menor */
     }
     .card p {
-      font-size: 1.04rem !important; /* menor */
+      font-size: 1rem !important; /* menor */
     }
     .tech p {
-      font-size: 0.75rem !important;
+      font-size: 0.8rem !important;
     }
     .content-section h1 {
       font-size: 3rem;
@@ -1448,6 +1449,8 @@ p {
     transform: translateY(-5px);
     box-shadow: 0 8px 25px rgba(80, 0, 120, 0.6),
       0 0 20px 5px rgba(80, 0, 120, 0.5);
+     
+
   }
 
   .card h3 {
@@ -1461,8 +1464,10 @@ p {
     margin-bottom: 15px;
     text-shadow: 1px 1px 1px black;
     background-color: #00000086;
-    padding: 8px 5px;
+    padding: 10px;
     border-radius: 10px;
+   
+   
   }
 
   .card img {
@@ -1480,11 +1485,12 @@ p {
     gap: 5px;
     justify-content: center;
     margin-bottom: 5px;
+    
   }
 
   .tech p {
     background: rgba(0, 0, 0, 0.6);
-    border: 1px solid;
+    border: 1px solid #ADD8E6;
     font-size: 0.7rem;
     padding: 5px;
     border-radius: 5px;
@@ -1494,6 +1500,7 @@ p {
     &:hover {
       background-color: #4da6ff;
       color: black;
+      border: 1px solid black;
     }
   }
 
@@ -1638,10 +1645,10 @@ p {
       font-size: 1.5rem;
     }
     .card p {
-      font-size: 1.05rem !important;
+      font-size: 1rem !important;
     }
     .tech p {
-      font-size: 0.75rem !important;
+      font-size: 0.85rem !important;
     }
     .content-section h1 {
       font-size: 3rem;
