@@ -955,7 +955,7 @@ p {
     background: rgba(0, 119, 255, 0.15);
     border: 1px solid rgba(0, 200, 255, 0.3);
 
- 
+    color: white;
   }
 
   .card:hover {
@@ -968,6 +968,8 @@ p {
   .card h3 {
     font-size: 1.4rem; /* menor em geral */
     margin-bottom: 10px;
+ 
+
   }
 
   .card p {
@@ -1013,6 +1015,8 @@ p {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.4s ease;
+ 
+
 
     &:hover {
       background-color: #4da6ff;
@@ -1443,6 +1447,7 @@ p {
     background: rgba(0, 119, 255, 0.15);
     border: 1px solid rgba(0, 200, 255, 0.3);
     height: 100%; /* ocupa toda altura do grid */
+    color: white;
   }
 
   .card:hover {
@@ -1466,6 +1471,8 @@ p {
     background-color: #00000086;
     padding: 10px;
     border-radius: 10px;
+   color: white;
+
    
    
   }
@@ -1496,6 +1503,8 @@ p {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.4s ease;
+
+
 
     &:hover {
       background-color: #4da6ff;
