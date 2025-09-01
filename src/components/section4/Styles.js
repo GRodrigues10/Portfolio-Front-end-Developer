@@ -66,7 +66,7 @@ export const StylesSection4 = styled.div`
     transform: translateY(-5px);
     box-shadow: 0 8px 25px rgba(80, 0, 120, 0.6),
       0 0 20px 5px rgba(80, 0, 120, 0.5);
-      backdrop-filter: blur(1px); 
+     
   }
 
   .card h3 {
@@ -82,7 +82,8 @@ export const StylesSection4 = styled.div`
    color: white;
     border-radius: 10px;
     background-color: #00000086;
-    padding: 8px 5px;
+    padding: 10px;
+   
     
 
    
@@ -270,10 +271,10 @@ export const StylesSection4 = styled.div`
       font-size: 1.5rem; /* menor */
     }
     .card p {
-      font-size: 1.04rem !important; /* menor */
+      font-size: 1rem !important; /* menor */
     }
     .tech p {
-      font-size: 0.75rem !important;
+      font-size: 0.8rem !important;
     }
     .content-section h1 {
       font-size: 3rem;
