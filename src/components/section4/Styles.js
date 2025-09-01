@@ -59,7 +59,7 @@ export const StylesSection4 = styled.div`
     background: rgba(0, 119, 255, 0.15);
     border: 1px solid rgba(0, 200, 255, 0.3);
 
- 
+    color: white;
   }
 
   .card:hover {
@@ -72,6 +72,8 @@ export const StylesSection4 = styled.div`
   .card h3 {
     font-size: 1.4rem; /* menor em geral */
     margin-bottom: 10px;
+ 
+
   }
 
   .card p {
@@ -117,6 +119,8 @@ export const StylesSection4 = styled.div`
     border-radius: 5px;
     cursor: pointer;
     transition: 0.4s ease;
+ 
+
 
     &:hover {
       background-color: #4da6ff;

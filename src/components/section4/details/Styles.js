@@ -55,6 +55,7 @@ export const StylesDetails = styled.div`
     background: rgba(0, 119, 255, 0.15);
     border: 1px solid rgba(0, 200, 255, 0.3);
     height: 100%; /* ocupa toda altura do grid */
+    color: white;
   }
 
   .card:hover {
@@ -78,6 +79,8 @@ export const StylesDetails = styled.div`
     background-color: #00000086;
     padding: 10px;
     border-radius: 10px;
+   color: white;
+
    
    
   }
@@ -108,6 +111,8 @@ export const StylesDetails = styled.div`
     border-radius: 5px;
     cursor: pointer;
     transition: 0.4s ease;
+
+
 
     &:hover {
       background-color: #4da6ff;
