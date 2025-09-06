@@ -23,27 +23,35 @@ function Section2() {
         <div className="boxs">
           <div className="p1">
             <h3>Educação</h3>
-            <li>Colégio Santa Terezinha (Ensino Médio | 2017 - 2019)</li>
-            <li>Universidade La Salle (Tecnólogo em ADS | 2023 - 2024)</li>
+            <ul>
+              <li>Colégio Santa Terezinha (Ensino Médio | 2017 - 2019)</li>
+              <li>Universidade La Salle (Tecnólogo em ADS | 2023 - 2024)</li>
+            </ul>
           </div>
 
           <div className="p2">
             <h3>Experiências</h3>
-            <li>Editor de Vídeo (Autônomo | 2019 - 2025)</li>
-            <li>Desenvolvedor Front-end ( Freelance | 2024 - Presente)</li>
+            <ul>
+              <li>Editor de Vídeo (Autônomo | 2019 - 2025)</li>
+              <li>Desenvolvedor Front-end ( Freelance | 2024 - Presente)</li>
+            </ul>
           </div>
 
           <div className="p3">
             <h3>Cursos</h3>
-            <li>Curso de Html5, CSS3 e JavaScript</li>
-            <li>Curso de React e Next</li>
-            <li>Curso de Node e TypeScript</li>
+            <ul>
+              <li>Curso de Html5, CSS3 e JavaScript</li>
+              <li>Curso de React e Next</li>
+              <li>Curso de Node e TypeScript</li>
+            </ul>
           </div>
 
        <div className="p4">
   <h3>Objetivos</h3>
-  <li>Contribuir com soluções eficientes e criativas em projetos Front-end</li>
-  <li>Ajudar a resolver problemas enquanto agrego valor à equipe e à empresa</li>
+  <ul>
+    <li>Contribuir com soluções eficientes e criativas em projetos Front-end</li>
+    <li>Ajudar a resolver problemas enquanto agrego valor à equipe e à empresa</li>
+  </ul>
 </div>
         </div>
       </div>

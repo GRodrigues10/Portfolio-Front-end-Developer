@@ -53,6 +53,13 @@ export const StylesSection2 = styled.div`
       text-shadow: 0 0 6px rgba(110,0,255,0.7);
     }
 
+    ul{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding-inline: 20px;
+    }
+
     li {
       font-size: 1.1rem;
       line-height: 1.5;
@@ -141,5 +148,7 @@ export const StylesSection2 = styled.div`
         font-size: 1.4rem;
       }
     }
+
+
   }
 `;
