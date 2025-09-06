@@ -648,6 +648,13 @@ p {
       text-shadow: 0 0 6px rgba(110,0,255,0.7);
     }
 
+    ul{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding-inline: 20px;
+    }
+
     li {
       font-size: 1.1rem;
       line-height: 1.5;
@@ -736,8 +743,10 @@ p {
         font-size: 1.4rem;
       }
     }
+
+
   }
-`;function W3(){return f.jsx($3,{id:"sobre",children:f.jsxs("div",{className:"content-section",children:[f.jsxs("h1",{children:["Sobre ",f.jsx("span",{children:"Mim"})]}),f.jsxs("p",{children:["Meu nome é Gabriel da Costa Rodrigues, tenho ",f.jsx("span",{children:"23 anos"})," e sou formado em ",f.jsx("span",{children:"Análise e Desenvolvimento de Sistemas"}),". Minha primeira experiência profissional foi como"," ",f.jsx("span",{children:"editor de vídeo"}),", atuando por 5 anos como autônomo, o que me permitiu desenvolver disciplina, criatividade e atenção a detalhes. Atualmente, estou migrando para a área de ",f.jsx("span",{children:" Desenvolvedor Front-end"}),", com experiência prática em projetos de desenvolvimento de interfaces. Sou dedicado, adaptável e motivado a crescer na área de tecnologia, contribuindo com soluções criativas e eficientes."]}),f.jsxs("div",{className:"boxs",children:[f.jsxs("div",{className:"p1",children:[f.jsx("h3",{children:"Educação"}),f.jsx("li",{children:"Colégio Santa Terezinha (Ensino Médio | 2017 - 2019)"}),f.jsx("li",{children:"Universidade La Salle (Tecnólogo em ADS | 2023 - 2024)"})]}),f.jsxs("div",{className:"p2",children:[f.jsx("h3",{children:"Experiências"}),f.jsx("li",{children:"Editor de Vídeo (Autônomo | 2019 - 2025)"}),f.jsx("li",{children:"Desenvolvedor Front-end ( Freelance | 2024 - Presente)"})]}),f.jsxs("div",{className:"p3",children:[f.jsx("h3",{children:"Cursos"}),f.jsx("li",{children:"Curso de Html5, CSS3 e JavaScript"}),f.jsx("li",{children:"Curso de React e Next"}),f.jsx("li",{children:"Curso de Node e TypeScript"})]}),f.jsxs("div",{className:"p4",children:[f.jsx("h3",{children:"Objetivos"}),f.jsx("li",{children:"Contribuir com soluções eficientes e criativas em projetos Front-end"}),f.jsx("li",{children:"Ajudar a resolver problemas enquanto agrego valor à equipe e à empresa"})]})]})]})})}const F3="/Portfolio-Front-end-Developer/assets/skills-BbeSaT2j.png",P3=wt.div`
+`;function W3(){return f.jsx($3,{id:"sobre",children:f.jsxs("div",{className:"content-section",children:[f.jsxs("h1",{children:["Sobre ",f.jsx("span",{children:"Mim"})]}),f.jsxs("p",{children:["Meu nome é Gabriel da Costa Rodrigues, tenho ",f.jsx("span",{children:"23 anos"})," e sou formado em ",f.jsx("span",{children:"Análise e Desenvolvimento de Sistemas"}),". Minha primeira experiência profissional foi como"," ",f.jsx("span",{children:"editor de vídeo"}),", atuando por 5 anos como autônomo, o que me permitiu desenvolver disciplina, criatividade e atenção a detalhes. Atualmente, estou migrando para a área de ",f.jsx("span",{children:" Desenvolvedor Front-end"}),", com experiência prática em projetos de desenvolvimento de interfaces. Sou dedicado, adaptável e motivado a crescer na área de tecnologia, contribuindo com soluções criativas e eficientes."]}),f.jsxs("div",{className:"boxs",children:[f.jsxs("div",{className:"p1",children:[f.jsx("h3",{children:"Educação"}),f.jsxs("ul",{children:[f.jsx("li",{children:"Colégio Santa Terezinha (Ensino Médio | 2017 - 2019)"}),f.jsx("li",{children:"Universidade La Salle (Tecnólogo em ADS | 2023 - 2024)"})]})]}),f.jsxs("div",{className:"p2",children:[f.jsx("h3",{children:"Experiências"}),f.jsxs("ul",{children:[f.jsx("li",{children:"Editor de Vídeo (Autônomo | 2019 - 2025)"}),f.jsx("li",{children:"Desenvolvedor Front-end ( Freelance | 2024 - Presente)"})]})]}),f.jsxs("div",{className:"p3",children:[f.jsx("h3",{children:"Cursos"}),f.jsxs("ul",{children:[f.jsx("li",{children:"Curso de Html5, CSS3 e JavaScript"}),f.jsx("li",{children:"Curso de React e Next"}),f.jsx("li",{children:"Curso de Node e TypeScript"})]})]}),f.jsxs("div",{className:"p4",children:[f.jsx("h3",{children:"Objetivos"}),f.jsxs("ul",{children:[f.jsx("li",{children:"Contribuir com soluções eficientes e criativas em projetos Front-end"}),f.jsx("li",{children:"Ajudar a resolver problemas enquanto agrego valor à equipe e à empresa"})]})]})]})]})})}const F3="/Portfolio-Front-end-Developer/assets/skills-BbeSaT2j.png",P3=wt.div`
   width: 100%;
   min-height: 100vh;
  background-color: #0d0d0d;
