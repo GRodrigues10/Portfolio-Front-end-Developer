@@ -101,21 +101,21 @@ function Details() {
           </div>
 
           <div className="card">
-            <h3>API Star Wars</h3>
+            <h3>StarApp</h3>
             <img src={starwars} alt="Capa do Star Wars" />
 
             <p>
-              App web de Star Wars com full stack, exibindo filmes e séries,
+              App web de Star Wars full stack, exibindo filmes e séries,
               mostrando detalhes de cada título em interface moderna e
               responsiva.
             </p>
             <div className="tech">
-              <p>React JS</p>
+              <p>Next JS</p>
               <p>Styled Components</p>
-              <p>React Router</p>
+              <p>Insomnia</p>
               <p>MongoDB</p>
               <p>node JS</p>
-              <p>Endpoints RESTful</p>
+              <p>API Restful</p>
             </div>
             <div className="btns">
               <button onClick={inProgress}>Github</button>
@@ -359,17 +359,27 @@ function Details() {
             <img src={cordel} alt="Capa do Conversor de Arquivos" />
 
             <p>
-              Página web criada como exercício do Curso em
-              Vídeo, com layout responsivo e efeito parallax, destacando versos
-              e tipografia temática.
+              Página web criada como exercício do Curso em Vídeo, com layout
+              responsivo e efeito parallax, destacando versos e tipografia
+              temática.
             </p>
             <div className="tech">
               <p>HTML5</p>
               <p>CSS3</p>
             </div>
             <div className="btns">
-              <a href="https://github.com/GRodrigues10/Projeto-Cordel" target="_blank"><button>Github</button></a>
-              <a href="https://grodrigues10.github.io/Projeto-Cordel/" target="_blank"><button>Deploy</button></a>
+              <a
+                href="https://github.com/GRodrigues10/Projeto-Cordel"
+                target="_blank"
+              >
+                <button>Github</button>
+              </a>
+              <a
+                href="https://grodrigues10.github.io/Projeto-Cordel/"
+                target="_blank"
+              >
+                <button>Deploy</button>
+              </a>
             </div>
           </div>
         </div>

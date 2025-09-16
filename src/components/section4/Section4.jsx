@@ -96,21 +96,21 @@ function Section4() {
           </div>
 
           <div className="card">
-            <h3>API Star Wars</h3>
+            <h3>StarApp</h3>
             <img src={starwars} alt="Capa do Star Wars" />
 
             <p>
-              App web de Star Wars com full stack, exibindo filmes e séries,
+              App web de Star Wars full stack, exibindo filmes e séries,
               mostrando detalhes de cada título em interface moderna e
               responsiva.
             </p>
             <div className="tech">
-              <p>React JS</p>
+              <p>Next JS</p>
               <p>Styled Components</p>
-              <p>React Router</p>
+              <p>Insomnia</p>
               <p>MongoDB</p>
               <p>node JS</p>
-              <p>Endpoints RESTful</p>
+              <p>API Restful</p>
             </div>
             <div className="btns">
               <button onClick={inProgress}>Github</button>
