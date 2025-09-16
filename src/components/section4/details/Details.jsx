@@ -115,7 +115,7 @@ function Details() {
               <p>Insomnia</p>
               <p>MongoDB</p>
               <p>node JS</p>
-              <p>API Restful</p>
+              <p>APIs Restful</p>
             </div>
             <div className="btns">
               <button onClick={inProgress}>Github</button>
