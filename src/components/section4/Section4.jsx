@@ -113,7 +113,7 @@ function Section4() {
               <p>APIs Restful</p>
             </div>
             <div className="btns">
-              <button onClick={inProgress}>Github</button>
+              <button><a href="https://github.com/GRodrigues10/Star-Wars-App" target="_blank">Github</a></button>
 
               <button onClick={inProgress}>Deploy</button>
             </div>
