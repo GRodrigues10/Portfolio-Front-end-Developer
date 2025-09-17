@@ -119,7 +119,7 @@ function Details() {
             </div>
             <div className="btns">
                <a href="https://github.com/GRodrigues10/Star-Wars-App" target="_blank"><button>Github</button></a>
-              <a href="star-wars-app-sandy-delta.vercel.app" target="_blank"><button>Deploy</button></a>
+              <a href="https://star-wars-app-sandy-delta.vercel.app" target="_blank"><button>Deploy</button></a>
             </div>
           </div>
           <div className="card">
