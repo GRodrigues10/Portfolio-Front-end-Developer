@@ -114,7 +114,7 @@ function Details() {
               <p>Styled Components</p>
               <p>Insomnia</p>
               <p>MongoDB</p>
-              <p>node JS</p>
+              <p>Node JS</p>
               <p>APIs Restful</p>
             </div>
             <div className="btns">
