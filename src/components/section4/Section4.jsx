@@ -123,25 +123,25 @@ function Section4() {
             <img src={backend} alt="Capa da API de Filmes" />
 
             <p>
-              Projeto de API de séries feito na faculdade com Express.js e
-              MongoDB, permitindo adicionar, listar, atualizar, excluir e
-              agrupar séries RESTful.
+             Projeto de API de filmes eséries feito com Express.js e
+              MongoDB, permitindo adicionar, listar, atualizare excluir
+              séries e filmes RESTful.
             </p>
             <div className="tech">
               <p>JavaScript</p>
               <p>MongoDB</p>
               <p>Express</p>
-              <p>Insommia</p>
+              <p>Insomnia</p>
               <p>Endpoints RESTful</p>
             </div>
             <div className="btns">
               <a
-                href="https://github.com/GRodrigues10/Projeto-API-Faculdade"
+                href="https://github.com/GRodrigues10/Api-Star-Wars"
                 target="_blank"
               >
                 <button>Github</button>
               </a>
-              <button onClick={msgAlert}>Deploy</button>
+              <a href="https://api-star-wars.onrender.com/" target="_blank"><button>Deploy</button></a>
             </div>
           </div>
           <div className="card">
