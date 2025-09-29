@@ -127,7 +127,7 @@ function Details() {
             <img src={backend} alt="Capa da API de Filmes" />
 
             <p>
-              Projeto de API de filmes eséries feito com Express.js e
+              Projeto de API de filmes e séries feito com Express.js e
               MongoDB, permitindo adicionar, listar, atualizare excluir
               séries e filmes RESTful.
             </p>
