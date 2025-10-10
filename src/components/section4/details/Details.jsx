@@ -1,7 +1,7 @@
 import { StylesDetails } from "./Styles";
 import produtime from "../../../assets/produ.png";
 import astro from "../../../assets/astro3.png";
-import file from "../../../assets/file2.png";
+import converter from "../../../assets/converter.png";
 import starwars from "../../../assets/lightsaber.png";
 import backend from "../../../assets/backend.png";
 import cat from "../../../assets/cat6.png";
@@ -10,6 +10,7 @@ import clima from "../../../assets/clima2.png";
 import cake from "../../../assets/cake.png";
 import tech from "../../../assets/technology.png";
 import cordel from "../../../assets/img_cordel.png";
+import shop6 from "../../../assets/shop_image6.png";
 import net from "../../../assets/net.png";
 import { useNavigate } from "react-router-dom";
 
@@ -33,34 +34,31 @@ function Details() {
         <h1>Projetos</h1>
         <div className="cards">
           <div className="card">
-            <h3>AstroLens</h3>
-            <img src={astro} alt="Capa do AstroLens" />
-            {/* <div className="img">
-        
-                    </div> */}
+            <h3>FullShop</h3>
+            <img src={shop6} alt="Capa do E-Commerce" />
 
             <p>
-              AstroLens é um app web em React que explora astronomia: planetas,
-              imagens da NASA, APOD e clima espacial, com interface moderna e
-              intuitiva.
+              Projeto de e-commerce full stack com Next.js, TypeScript e
+              Node.js, com carrinho, busca, produtos em destaque e integração
+              completa.
             </p>
             <div className="tech">
-              <p>React JS</p>
+              <p>Next JS</p>
+              <p>TypeScript</p>
               <p>Styled Components</p>
-              <p>React Router</p>
-              <p>APIs RESTful</p>
-              <p>Mobile First</p>
-              <p>LocalStorage</p>
+              <p>Insomnia</p>
+              <p>MongoDB</p>
+              <p>Node JS</p>
             </div>
             <div className="btns">
               <a
-                href="https://github.com/GRodrigues10/AstroLens"
+                href="https://github.com/GRodrigues10/E-Commerce"
                 target="_blank"
               >
                 <button>Github</button>
               </a>
               <a
-                href="https://grodrigues10.github.io/AstroLens/"
+                href="https://e-commerce-tan-gamma-27.vercel.app/"
                 target="_blank"
               >
                 <button>Deploy</button>
@@ -118,36 +116,56 @@ function Details() {
               <p>APIs Restful</p>
             </div>
             <div className="btns">
-               <a href="https://github.com/GRodrigues10/Star-Wars-App" target="_blank"><button>Github</button></a>
-              <a href="https://star-wars-app-sandy-delta.vercel.app" target="_blank"><button>Deploy</button></a>
-            </div>
-          </div>
-          <div className="card">
-            <h3>API de Filmes</h3>
-            <img src={backend} alt="Capa da API de Filmes" />
-
-            <p>
-              Projeto de API de filmes e séries feito com Express.js e
-              MongoDB, permitindo adicionar, listar, atualizare excluir
-              séries e filmes RESTful.
-            </p>
-            <div className="tech">
-              <p>JavaScript</p>
-              <p>MongoDB</p>
-              <p>Express</p>
-              <p>Insomnia</p>
-              <p>Endpoints RESTful</p>
-            </div>
-            <div className="btns">
               <a
-                href="https://github.com/GRodrigues10/Api-Star-Wars"
+                href="https://github.com/GRodrigues10/Star-Wars-App"
                 target="_blank"
               >
                 <button>Github</button>
               </a>
-              <a href="https://api-star-wars.onrender.com/" target="_blank"><button>Deploy</button></a>
+              <a
+                href="https://star-wars-app-sandy-delta.vercel.app"
+                target="_blank"
+              >
+                <button>Deploy</button>
+              </a>
             </div>
           </div>
+          <div className="card">
+            <h3>AstroLens</h3>
+            <img src={astro} alt="Capa do AstroLens" />
+            {/* <div className="img">
+        
+                    </div> */}
+
+            <p>
+              AstroLens é um app web em React que explora astronomia: planetas,
+              imagens da NASA, APOD e clima espacial, com interface moderna e
+              intuitiva.
+            </p>
+            <div className="tech">
+              <p>React JS</p>
+              <p>Styled Components</p>
+              <p>React Router</p>
+              <p>APIs RESTful</p>
+              <p>Mobile First</p>
+              <p>LocalStorage</p>
+            </div>
+            <div className="btns">
+              <a
+                href="https://github.com/GRodrigues10/AstroLens"
+                target="_blank"
+              >
+                <button>Github</button>
+              </a>
+              <a
+                href="https://grodrigues10.github.io/AstroLens/"
+                target="_blank"
+              >
+                <button>Deploy</button>
+              </a>
+            </div>
+          </div>
+
           <div className="card">
             <h3>Produtime</h3>
             <img src={produtime} alt="Capa do Produtime" />
@@ -182,7 +200,7 @@ function Details() {
           </div>
           <div className="card">
             <h3>Conversor de Arquivos</h3>
-            <img src={file} alt="Capa do Conversor de Arquivos" />
+            <img src={converter} alt="Capa do Conversor de Arquivos" />
 
             <p>
               App web que permite arrastar ou selecionar arquivos e convertê-los

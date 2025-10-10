@@ -13,7 +13,6 @@ export const StylesSection4 = styled.div`
   background-size: cover;
   align-items: center;
   justify-content: center;
-
   scroll-margin-top: 100px; 
 
   /* ==================== Content Section ==================== */
