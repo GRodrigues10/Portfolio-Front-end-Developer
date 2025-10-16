@@ -273,7 +273,7 @@ Please change the parent <Route path="${B}"> to <Route path="${B==="/"?"*":`${B}
   }
   @media screen and (min-width: 1200px) {
   }
-`;function w3(){return f.jsx(M3,{children:f.jsxs("p",{children:["© Site criado por ",f.jsx("a",{href:"",children:"Gabriel da Costa Rodrigues"})]})})}const N3="/Portfolio-Front-end-Developer/assets/backk2-C6OP1j_g.png",U3=wt.div`
+`;function w3(){return f.jsx(M3,{children:f.jsxs("p",{children:["© Site criado por ",f.jsx("a",{href:"https://github.com/GRodrigues10",target:"_blank",children:"Gabriel da Costa Rodrigues"})]})})}const N3="/Portfolio-Front-end-Developer/assets/backk2-C6OP1j_g.png",U3=wt.div`
   min-height: 100vh;
 padding-top: 100px; /* mesma altura do header */
 /* display: flex;
