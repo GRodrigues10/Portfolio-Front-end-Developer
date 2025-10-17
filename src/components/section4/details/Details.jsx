@@ -77,9 +77,9 @@ function Details() {
             </p>
             <div className="tech">
               <p>React JS</p>
+              <p>JavaScript</p>
               <p>Styled Components</p>
               <p>React Router</p>
-              <p>Mobile First</p>
               <p>APIs RESTful</p>
             </div>
             <div className="btns">
@@ -144,10 +144,10 @@ function Details() {
             </p>
             <div className="tech">
               <p>React JS</p>
+              <p>JavaScript</p>
               <p>Styled Components</p>
               <p>React Router</p>
               <p>APIs RESTful</p>
-              <p>Mobile First</p>
               <p>LocalStorage</p>
             </div>
             <div className="btns">
@@ -177,9 +177,9 @@ function Details() {
             </p>
             <div className="tech">
               <p>React JS</p>
+              <p>JavaScript</p>
               <p>Styled Components</p>
               <p>React Router</p>
-              <p>Mobile First</p>
               <p>UuID</p>
               <p>LocalStorage</p>
             </div>
@@ -208,6 +208,7 @@ function Details() {
             </p>
             <div className="tech">
               <p>React JS</p>
+              <p>JavaScript</p>
               <p>Styled Components</p>
               <p>React Router</p>
               <p>File-Saver</p>
@@ -239,8 +240,7 @@ function Details() {
             </p>
             <div className="tech">
               <p>React JS</p>
-              <p>HTML5</p>
-              <p>CSS3</p>
+              <p>JavaScript</p>
               <p>API RESTful</p>
             </div>
             <div className="btns">
@@ -294,8 +294,7 @@ function Details() {
             </p>
             <div className="tech">
               <p>React JS</p>
-              <p>HTML5</p>
-              <p>CSS3</p>
+              <p>JavaScript</p>
               <p>API RESTful</p>
             </div>
             <div className="btns">
