@@ -150,7 +150,7 @@ export const StylesSidebar = styled.div`
     }
   }
 
-  @media screen and (min-width: 531px) {
+  @media screen and (min-width: 1024px) {
     display: none;
   }
 `;

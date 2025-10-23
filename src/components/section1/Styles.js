@@ -102,6 +102,7 @@ height: auto;
     flex-direction: column;
     padding: 10px;
     text-align: center;
+    
   }
 
 h1 {
@@ -196,7 +197,7 @@ p {
   }
 
   @media screen and (min-width: 768px) {
-    padding-top:0;
+    /* padding-top:50px; */
     height: 100vh;
       background-attachment: fixed;
       display: flex;
@@ -217,7 +218,12 @@ p {
       justify-content: center;
       gap: 30px;
       margin: 0;
+
+     
     }
+   .social-medias svg{
+  font-size:35px;
+}
     .content-text {
       flex: 1;
       display: flex;
@@ -230,18 +236,18 @@ p {
     }
     .perfil { flex-shrink: 0; margin-left: 20px; }
     h1 { 
-      font-size: 2.1rem;
+      font-size: 1.6rem;
       width: 90%;
      }
     h2 { 
-      font-size: 1.6rem;
+      font-size: 1.3rem;
       width: 90%;
       
 
     }
    
-    p { font-size: 1.2rem; }
-    .btn button { font-size: 1.1rem; }
+    p { font-size: 0.9rem; }
+    .btn button { font-size: 0.9rem; }
     .perfil img{
   margin-top: 0px;
   width: 200px;
@@ -254,6 +260,7 @@ p {
 
 
   @media screen and (min-width: 992px) {
+    padding-top: 30px;
     .content-text {
       flex: 1;
       display: flex;
@@ -273,7 +280,7 @@ p {
     }
     .content-text h1 { font-size: 2.5rem }
     h2 { font-size: 1.9rem }
-    p { line-height: 1.5; }
+    p { line-height: 1.5; font-size:1.2rem}
     .btn { 
       width: 90%; 
     
@@ -324,4 +331,8 @@ p {
    @keyframes slideLeft {
     to { transform: translateX(0); }
   }
+@media screen and (min-width: 1440px) {
+    padding-top: 0px;
+  
+}
 `;
