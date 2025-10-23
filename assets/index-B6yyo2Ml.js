@@ -204,7 +204,7 @@ Please change the parent <Route path="${B}"> to <Route path="${B==="/"?"*":`${B}
     }
   }
 
-  @media screen and (min-width: 531px) {
+  @media screen and (min-width: 1024px) {
     display: none;
   }
 `,D3=Mt.div`
@@ -374,6 +374,7 @@ height: auto;
     flex-direction: column;
     padding: 10px;
     text-align: center;
+    
   }
 
 h1 {
@@ -468,7 +469,7 @@ p {
   }
 
   @media screen and (min-width: 768px) {
-    padding-top:0;
+    /* padding-top:50px; */
     height: 100vh;
       background-attachment: fixed;
       display: flex;
@@ -489,7 +490,12 @@ p {
       justify-content: center;
       gap: 30px;
       margin: 0;
+
+     
     }
+   .social-medias svg{
+  font-size:35px;
+}
     .content-text {
       flex: 1;
       display: flex;
@@ -502,18 +508,18 @@ p {
     }
     .perfil { flex-shrink: 0; margin-left: 20px; }
     h1 { 
-      font-size: 2.1rem;
+      font-size: 1.6rem;
       width: 90%;
      }
     h2 { 
-      font-size: 1.6rem;
+      font-size: 1.3rem;
       width: 90%;
       
 
     }
    
-    p { font-size: 1.2rem; }
-    .btn button { font-size: 1.1rem; }
+    p { font-size: 0.9rem; }
+    .btn button { font-size: 0.9rem; }
     .perfil img{
   margin-top: 0px;
   width: 200px;
@@ -526,6 +532,7 @@ p {
 
 
   @media screen and (min-width: 992px) {
+    padding-top: 30px;
     .content-text {
       flex: 1;
       display: flex;
@@ -545,7 +552,7 @@ p {
     }
     .content-text h1 { font-size: 2.5rem }
     h2 { font-size: 1.9rem }
-    p { line-height: 1.5; }
+    p { line-height: 1.5; font-size:1.2rem}
     .btn { 
       width: 90%; 
     
@@ -596,6 +603,10 @@ p {
    @keyframes slideLeft {
     to { transform: translateX(0); }
   }
+@media screen and (min-width: 1440px) {
+    padding-top: 0px;
+  
+}
 `;var uh={color:void 0,size:void 0,className:void 0,style:void 0,attr:void 0},v1=Ct.createContext&&Ct.createContext(uh),H3=["attr","size","title"];function B3(i,c){if(i==null)return{};var o=q3(i,c),r,d;if(Object.getOwnPropertySymbols){var m=Object.getOwnPropertySymbols(i);for(d=0;d<m.length;d++)r=m[d],!(c.indexOf(r)>=0)&&Object.prototype.propertyIsEnumerable.call(i,r)&&(o[r]=i[r])}return o}function q3(i,c){if(i==null)return{};var o={};for(var r in i)if(Object.prototype.hasOwnProperty.call(i,r)){if(c.indexOf(r)>=0)continue;o[r]=i[r]}return o}function Qu(){return Qu=Object.assign?Object.assign.bind():function(i){for(var c=1;c<arguments.length;c++){var o=arguments[c];for(var r in o)Object.prototype.hasOwnProperty.call(o,r)&&(i[r]=o[r])}return i},Qu.apply(this,arguments)}function y1(i,c){var o=Object.keys(i);if(Object.getOwnPropertySymbols){var r=Object.getOwnPropertySymbols(i);c&&(r=r.filter(function(d){return Object.getOwnPropertyDescriptor(i,d).enumerable})),o.push.apply(o,r)}return o}function ku(i){for(var c=1;c<arguments.length;c++){var o=arguments[c]!=null?arguments[c]:{};c%2?y1(Object(o),!0).forEach(function(r){L3(i,r,o[r])}):Object.getOwnPropertyDescriptors?Object.defineProperties(i,Object.getOwnPropertyDescriptors(o)):y1(Object(o)).forEach(function(r){Object.defineProperty(i,r,Object.getOwnPropertyDescriptor(o,r))})}return i}function L3(i,c,o){return c=G3(c),c in i?Object.defineProperty(i,c,{value:o,enumerable:!0,configurable:!0,writable:!0}):i[c]=o,i}function G3(i){var c=Y3(i,"string");return typeof c=="symbol"?c:c+""}function Y3(i,c){if(typeof i!="object"||!i)return i;var o=i[Symbol.toPrimitive];if(o!==void 0){var r=o.call(i,c);if(typeof r!="object")return r;throw new TypeError("@@toPrimitive must return a primitive value.")}return(c==="string"?String:Number)(i)}function ch(i){return i&&i.map((c,o)=>Ct.createElement(c.tag,ku({key:o},c.attr),ch(c.child)))}function lt(i){return c=>Ct.createElement(X3,Qu({attr:ku({},i.attr)},c),ch(i.child))}function X3(i){var c=o=>{var{attr:r,size:d,title:m}=i,v=B3(i,H3),R=d||o.size||"1em",y;return o.className&&(y=o.className),i.className&&(y=(y?y+" ":"")+i.className),Ct.createElement("svg",Qu({stroke:"currentColor",fill:"currentColor",strokeWidth:"0"},o.attr,r,v,{className:y,style:ku(ku({color:i.color||o.color},o.style),i.style),height:R,width:R,xmlns:"http://www.w3.org/2000/svg"}),m&&Ct.createElement("title",null,m),i.children)};return v1!==void 0?Ct.createElement(v1.Consumer,null,o=>c(o)):c(uh)}function Q3(i){return lt({attr:{viewBox:"0 0 496 512"},child:[{tag:"path",attr:{d:"M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"},child:[]}]})(i)}function k3(i){return lt({attr:{viewBox:"0 0 448 512"},child:[{tag:"path",attr:{d:"M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"},child:[]}]})(i)}function V3(i){return lt({attr:{viewBox:"0 0 448 512"},child:[{tag:"path",attr:{d:"M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"},child:[]}]})(i)}const Z3="/Portfolio-Front-end-Developer/assets/profile-DbjR2BzC.png";function K3(){return f.jsx(U3,{id:"inicio",children:f.jsxs("div",{className:"content-section",children:[f.jsxs("div",{className:"social-medias",children:[f.jsx("a",{href:"https://www.linkedin.com/in/grodriguess10/",target:"_blank",children:f.jsx(k3,{})}),f.jsx("a",{href:"https://wa.me/5521965476339",target:"_blank",rel:"noopener noreferrer",children:f.jsx(V3,{})}),f.jsx("a",{href:"https://github.com/GRodrigues10",target:"_blank",children:f.jsx(Q3,{})})]}),f.jsxs("div",{className:"content-text",children:[f.jsx("h1",{children:"Olá, eu sou o Gabriel"}),f.jsx("h2",{children:"Front-end Developer"}),f.jsxs("p",{children:["Desenvolvedor Front-end formado em Análise e Desenvolvimento de Sistemas pela Universidade La Salle. Tenho experiência prática em projetos web utilizando tecnologias como"," ",f.jsx("span",{className:"tech react",children:"React"}),","," ",f.jsx("span",{className:"tech js",children:"JavaScript"}),","," ",f.jsx("span",{className:"tech html",children:"HTML"}),","," ",f.jsx("span",{className:"tech css",children:"CSS"})," e"," ",f.jsx("span",{className:"tech node",children:"Node"}),", com foco em criar interfaces modernas, responsivas e centradas na experiência do usuário."]}),f.jsx("div",{className:"btn",children:f.jsx("a",{href:"/Portfolio-Front-end-Developer/Curriculo_Gabriel_Rodrigues_Frontend_Developer.pdf",download:"Gabriel_Rodrigues_Curriculo.pdf",children:f.jsx("button",{children:"Currículo"})})})]}),f.jsx("div",{className:"perfil",children:f.jsx("img",{src:Z3,alt:"Imagem do Perfil"})})]})})}const J3="/Portfolio-Front-end-Developer/assets/backgroundPortfolio_-dkxJTp3g.png",$3=Mt.div`
   width: 100%;
   min-height: 100vh;
