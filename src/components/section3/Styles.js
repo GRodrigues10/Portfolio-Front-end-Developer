@@ -6,29 +6,27 @@ import backmobile from "../../assets/back_mobile.png";
 export const StylesSection3 = styled.div`
   width: 100%;
   min-height: 100vh;
- background-color: #0d0d0d;
+  background-color: #0d0d0d;
   background-size: cover;
   background-position: center center;
   color: #dcdcdc; /* texto base */
   display: flex;
   align-items: center;
-  justify-content:center;
-   scroll-margin-top: 100px; 
-  
+  justify-content: center;
+  scroll-margin-top: 100px;
+
   .content-section {
     padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
   }
 
   .content-section h1 {
     margin-top: 30px;
     margin-bottom: 30px;
-   color: #e6e6fa; /* agora branco */
-    
+    color: #e6e6fa; /* agora branco */
   }
 
   .content-section .skills {
@@ -87,29 +85,32 @@ export const StylesSection3 = styled.div`
   }
 
   @keyframes float {
-    0% { transform: translateY(0px); }
-    50% { transform: translateY(-10px); }
-    100% { transform: translateY(0px); }
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
   }
 
-  @media screen and (min-width: 530px){
-    .content-section .skills{
+  @media screen and (min-width: 530px) {
+    .content-section .skills {
       grid-template-columns: repeat(2, 1fr);
     }
-    .content-section{
-    padding: 30px;
-
+    .content-section {
+      padding: 30px;
     }
-   
   }
 
-  @media screen and (min-width: 768px){
-  background: url(${back});
- background-position:center center;
-      background-attachment: fixed;
+  @media screen and (min-width: 768px) {
+    background: url(${back});
+    background-position: center center;
+    background-attachment: fixed;
 
-
-    .content-section .skills{
+    .content-section .skills {
       grid-template-columns: repeat(3, 1fr);
     }
     .content-section .skills div {
@@ -122,8 +123,8 @@ export const StylesSection3 = styled.div`
     }
   }
 
-    @media screen and (min-width: 992px){
-      padding: 0;
+  @media screen and (min-width: 992px) {
+    padding: 0;
     .content-section h1 {
       font-size: 2.4rem;
     }
@@ -132,7 +133,7 @@ export const StylesSection3 = styled.div`
     }
 
     .content-section .skills div {
-      width:260px;
+      width: 260px;
       height: 200px;
     }
 
@@ -142,10 +143,9 @@ export const StylesSection3 = styled.div`
   }
 
   @media screen and (min-width: 1200px) {
-    .content-section{
-        /* padding: 60px */
+    .content-section {
+      width: 100%;
       
-        width: 100%;
     }
     .content-section .skills {
       grid-template-columns: repeat(4, 1fr);
@@ -153,8 +153,7 @@ export const StylesSection3 = styled.div`
     }
 
     .content-section .skills div {
-      
-  width: 270px;
+      width: 270px;
       height: 235px;
     }
 

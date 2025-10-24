@@ -262,6 +262,13 @@ export const StylesSection4 = styled.div`
   }
 
   @media screen and (min-width: 1200px) {
+    width: 100%;
+    .content-section{
+
+ 
+     
+    
+    }
 
 
     .cards {

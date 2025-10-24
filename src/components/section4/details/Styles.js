@@ -222,6 +222,7 @@ export const StylesDetails = styled.div`
   }
 
   @media screen and (min-width: 992px) {
+  
     .cards {
       grid-template-columns: repeat(3, 1fr);
     }
@@ -252,8 +253,10 @@ export const StylesDetails = styled.div`
   }
 
   @media screen and (min-width: 1200px) {
+  
     .cards {
       grid-template-columns: repeat(3, 1fr);
+    
     }
     .card img {
       height: 180px;

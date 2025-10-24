@@ -4,7 +4,7 @@ import back from "../../assets/backgroundPortfolio_.png";
 export const StylesSection2 = styled.div`
   width: 100%;
   min-height: 100vh;
-  background-color: #0A001A;
+  background-color: #0a001a;
   position: relative;
   display: flex;
   align-items: center;
@@ -41,7 +41,7 @@ export const StylesSection2 = styled.div`
 
   .boxs {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     gap: 20px;
     margin: 20px 0;
     color: #e6e6fa;
@@ -50,10 +50,10 @@ export const StylesSection2 = styled.div`
     h3 {
       font-size: 1.5rem;
       margin-bottom: 10px;
-      text-shadow: 0 0 6px rgba(110,0,255,0.7);
+      text-shadow: 0 0 6px rgba(110, 0, 255, 0.7);
     }
 
-    ul{
+    ul {
       display: flex;
       flex-direction: column;
       gap: 10px;
@@ -76,7 +76,7 @@ export const StylesSection2 = styled.div`
       padding: 25px;
       border-radius: 15px;
       gap: 10px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
       transition: all 0.3s ease;
       min-height: 250px;
     }
@@ -130,25 +130,29 @@ export const StylesSection2 = styled.div`
 
   /* Media Query 1200px */
   @media screen and (min-width: 1200px) {
-    .content-section {
-      padding: 60px;
-      h1 {
-        font-size: 3rem;
-      }
-      p {
-        font-size: 1.4rem;
-      }
-    }
+ 
+  .content-section {
 
-    .boxs {
-      h3 {
-        font-size: 2rem;
-      }
-      li {
-        font-size: 1.4rem;
-      }
-    }
-
-
+    padding: 60px;
+    width: 100%;
   }
+
+  .content-section h1 {
+    font-size: 3rem;
+  }
+
+  .content-section p {
+    font-size: 1.4rem;
+    max-width: 1200px;
+  }
+
+  .boxs h3 {
+    font-size: 2rem;
+  }
+
+  .boxs li {
+    font-size: 1.4rem;
+  }
+}
+
 `;
