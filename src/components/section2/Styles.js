@@ -31,7 +31,8 @@ export const StylesSection2 = styled.div`
       text-align: justify;
       margin: 30px 0;
       font-size: 1.1rem;
-      max-width: 1250px;
+      max-width: 1160px;
+      
       span {
         color: #d8ccff;
         font-weight: 600;
@@ -143,7 +144,7 @@ export const StylesSection2 = styled.div`
 
   .content-section p {
     font-size: 1.4rem;
-    max-width: 1200px;
+    /* max-width: 1200px; */
   }
 
   .boxs h3 {
@@ -152,6 +153,11 @@ export const StylesSection2 = styled.div`
 
   .boxs li {
     font-size: 1.4rem;
+  }
+
+  .boxs div{
+
+    max-width: 570px;
   }
 }
 
