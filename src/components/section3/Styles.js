@@ -155,7 +155,7 @@ export const StylesSection3 = styled.div`
     .content-section .skills div {
       
   width: 270px;
-      height: 240px;
+      height: 235px;
     }
 
     h1 {
