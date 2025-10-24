@@ -143,7 +143,7 @@ export const StylesSection3 = styled.div`
 
   @media screen and (min-width: 1200px) {
     .content-section{
-        padding: 60px
+        /* padding: 60px */
     }
     .content-section .skills {
       grid-template-columns: repeat(4, 1fr);
@@ -151,7 +151,7 @@ export const StylesSection3 = styled.div`
     }
 
     .content-section .skills div {
-      width: 270px;
+      max-width: 265px;
       height: 225px;
     }
 

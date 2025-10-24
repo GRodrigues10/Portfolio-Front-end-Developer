@@ -93,6 +93,7 @@ export const StylesHeader = styled.header`
   }
 
   @media screen and (min-width: 1200px) {
+  
     padding-inline: 0px;
     justify-content: space-around;
     h1 {

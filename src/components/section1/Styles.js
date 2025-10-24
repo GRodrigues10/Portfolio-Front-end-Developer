@@ -295,6 +295,8 @@ p {
   }
 
   @media screen and (min-width: 1200px) {
+    background-color: #e34f26;
+  
     .perfil img {
       width: 315px;
       height: 315px;
