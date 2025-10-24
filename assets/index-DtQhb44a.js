@@ -150,6 +150,7 @@ Please change the parent <Route path="${B}"> to <Route path="${B==="/"?"*":`${B}
   }
 
   @media screen and (min-width: 1200px) {
+  
     padding-inline: 0px;
     justify-content: space-around;
     h1 {
@@ -567,6 +568,8 @@ p {
   }
 
   @media screen and (min-width: 1200px) {
+    background-color: #e34f26;
+  
     .perfil img {
       width: 315px;
       height: 315px;
@@ -897,7 +900,7 @@ p {
 
   @media screen and (min-width: 1200px) {
     .content-section{
-        padding: 60px
+        /* padding: 60px */
     }
     .content-section .skills {
       grid-template-columns: repeat(4, 1fr);
@@ -905,7 +908,7 @@ p {
     }
 
     .content-section .skills div {
-      width: 270px;
+      max-width: 265px;
       height: 225px;
     }
 
