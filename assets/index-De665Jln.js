@@ -880,7 +880,7 @@ p {
   }
 
     @media screen and (min-width: 992px){
-      
+      padding: 0;
     .content-section h1 {
       font-size: 2.4rem;
     }
@@ -889,7 +889,7 @@ p {
     }
 
     .content-section .skills div {
-      width:280px;
+      width:260px;
       height: 200px;
     }
 
@@ -901,6 +901,8 @@ p {
   @media screen and (min-width: 1200px) {
     .content-section{
         /* padding: 60px */
+      
+        width: 100%;
     }
     .content-section .skills {
       grid-template-columns: repeat(4, 1fr);
@@ -908,8 +910,9 @@ p {
     }
 
     .content-section .skills div {
-      max-width: 265px;
-      height: 225px;
+      
+  width: 270px;
+      height: 240px;
     }
 
     h1 {
