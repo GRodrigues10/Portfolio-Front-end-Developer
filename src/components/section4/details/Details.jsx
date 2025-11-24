@@ -36,7 +36,7 @@ function Details() {
         <div className="cards">
 
           <div className="card">
-                    <h3>Dashboard</h3>
+                    <h3>Dashboard de Vendas</h3>
                     <img src={dashboard} alt="Capa do E-Commerce" />
         
                     <p>
@@ -47,7 +47,7 @@ function Details() {
                       <p>Next JS</p>
                       <p>TypeScript</p>
                       <p>Styled Components</p>
-                      <p>i18n</p>
+                      <p>I18n</p>
                       <p>Recharts</p>
                       <p>MongoDB</p>
                       <p>Node JS</p>
