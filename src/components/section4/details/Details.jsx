@@ -11,6 +11,7 @@ import cake from "../../../assets/cake.png";
 import tech from "../../../assets/technology.png";
 import cordel from "../../../assets/img_cordel.png";
 import shop6 from "../../../assets/shop_image6.png";
+import dashboard from "../../../assets/d3.png";
 import net from "../../../assets/net.png";
 import { useNavigate } from "react-router-dom";
 
@@ -33,6 +34,40 @@ function Details() {
       <div className="content-section">
         <h1>Projetos</h1>
         <div className="cards">
+
+          <div className="card">
+                    <h3>Dashboard</h3>
+                    <img src={dashboard} alt="Capa do E-Commerce" />
+        
+                    <p>
+                      Dashboard responsivo com modo claro/escuro, gráficos interativos,
+                      indicadores de desempenho e suporte a múltiplos idiomas.
+                    </p>
+                    <div className="tech">
+                      <p>Next JS</p>
+                      <p>TypeScript</p>
+                      <p>Styled Components</p>
+                      <p>i18n</p>
+                      <p>Recharts</p>
+                      <p>MongoDB</p>
+                      <p>Node JS</p>
+                    </div>
+                    <div className="btns">
+                      <a
+                        href="https://github.com/GRodrigues10/Dashboard-Next"
+                        target="_blank"
+                      >
+                        <button>Github</button>
+                      </a>
+                      <a
+                        href="https://dashboard-next-theta-orpin.vercel.app/"
+                        target="_blank"
+                      >
+                        <button>Deploy</button>
+                      </a>
+                    </div>
+                  </div>
+
           <div className="card">
             <h3>FullShop</h3>
             <img src={shop6} alt="Capa do E-Commerce" />

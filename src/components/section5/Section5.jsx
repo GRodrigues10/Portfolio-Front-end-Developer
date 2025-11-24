@@ -8,10 +8,10 @@ function Section5() {
 
     emailjs
       .sendForm(
-        "service_256rbgi",     // SERVICE ID CORRETO
-        "template_c657ein",    // TEMPLATE ID CORRETO
+        "service_256rbgi",     
+        "template_c657ein",    
         e.target,
-        "YUwRXf0TSw3I7_wyr"    // PUBLIC KEY CORRETO
+        "YUwRXf0TSw3I7_wyr"    
       )
       .then(
         () => {

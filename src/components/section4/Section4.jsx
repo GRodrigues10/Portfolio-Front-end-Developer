@@ -5,7 +5,8 @@ import astro from "../../assets/astro3.png";
 import converter from "../../assets/converter.png";
 import starwars from "../../assets/lightsaber.png";
 import net from "../../assets/net.png";
-import shop6 from '../../assets/shop_image6.png'
+import shop6 from "../../assets/shop_image6.png";
+import dashboard from "../../assets/d3.png";
 import { useNavigate } from "react-router-dom";
 
 function Section4() {
@@ -27,7 +28,40 @@ function Section4() {
       <div className="content-section">
         <h1>Projetos</h1>
         <div className="cards">
-             <div className="card">
+          <div className="card">
+            <h3>Dashboard</h3>
+            <img src={dashboard} alt="Capa do E-Commerce" />
+
+            <p>
+              Dashboard responsivo com modo claro/escuro, gráficos interativos,
+              indicadores de desempenho e suporte a múltiplos idiomas.
+            </p>
+            <div className="tech">
+              <p>Next JS</p>
+              <p>TypeScript</p>
+              <p>Styled Components</p>
+              <p>i18n</p>
+              <p>Recharts</p>
+              <p>MongoDB</p>
+              <p>Node JS</p>
+            </div>
+            <div className="btns">
+              <a
+                href="https://github.com/GRodrigues10/Dashboard-Next"
+                target="_blank"
+              >
+                <button>Github</button>
+              </a>
+              <a
+                href="https://dashboard-next-theta-orpin.vercel.app/"
+                target="_blank"
+              >
+                <button>Deploy</button>
+              </a>
+            </div>
+          </div>
+
+          <div className="card">
             <h3>FullShop</h3>
             <img src={shop6} alt="Capa do E-Commerce" />
 
@@ -51,15 +85,17 @@ function Section4() {
               >
                 <button>Github</button>
               </a>
-              <a href="https://e-commerce-tan-gamma-27.vercel.app/" target="_blank">
+              <a
+                href="https://e-commerce-tan-gamma-27.vercel.app/"
+                target="_blank"
+              >
                 <button>Deploy</button>
               </a>
             </div>
           </div>
-         
 
           <div className="card">
-            <h3>Netflix-Clone</h3>
+            <h3>Netflix Clone</h3>
             <img src={net} alt="Capa da Netfix" />
 
             <p>
@@ -182,36 +218,6 @@ function Section4() {
               </a>
               <a
                 href="https://grodrigues10.github.io/produtime-reactjs/"
-                target="_blank"
-              >
-                <button>Deploy</button>
-              </a>
-            </div>
-          </div>
-          <div className="card">
-            <h3>Conversor de Arquivos</h3>
-            <img src={converter} alt="Capa do Conversor de Arquivos" />
-
-            <p>
-              App web que permite arrastar ou selecionar arquivos e convertê-los
-              em TXT, CSV, JSON, PNG ou JPG com interface simples e ágil.
-            </p>
-            <div className="tech">
-              <p>React JS</p>
-              <p>JavaScript</p>
-              <p>Styled Components</p>
-              <p>React Router</p>
-              <p>File-Saver</p>
-            </div>
-            <div className="btns">
-              <a
-                href="https://github.com/GRodrigues10/File-Converter"
-                target="_blank"
-              >
-                <button>Github</button>
-              </a>
-              <a
-                href="https://grodrigues10.github.io/File-Converter/"
                 target="_blank"
               >
                 <button>Deploy</button>
