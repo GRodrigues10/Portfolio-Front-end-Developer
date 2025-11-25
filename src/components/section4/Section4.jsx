@@ -44,6 +44,7 @@ function Section4() {
               <p>Recharts</p>
               <p>MongoDB</p>
               <p>Node JS</p>
+              <p>Jest</p>
             </div>
             <div className="btns">
               <a
