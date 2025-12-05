@@ -34,40 +34,39 @@ function Details() {
       <div className="content-section">
         <h1>Projetos</h1>
         <div className="cards">
-
           <div className="card">
-                    <h3>Dashboard de Vendas</h3>
-                    <img src={dashboard} alt="Capa do E-Commerce" />
-        
-                    <p>
-                      Dashboard responsivo com modo claro/escuro, gráficos interativos,
-                      indicadores de desempenho e suporte a múltiplos idiomas.
-                    </p>
-                    <div className="tech">
-                      <p>Next JS</p>
-                      <p>TypeScript</p>
-                      <p>Styled Components</p>
-                      <p>I18n</p>
-                      <p>Recharts</p>
-                      <p>MongoDB</p>
-                      <p>Node JS</p>
-                      <p>Jest</p>
-                    </div>
-                    <div className="btns">
-                      <a
-                        href="https://github.com/GRodrigues10/Dashboard-Next"
-                        target="_blank"
-                      >
-                        <button>Github</button>
-                      </a>
-                      <a
-                        href="https://dashboard-next-theta-orpin.vercel.app/"
-                        target="_blank"
-                      >
-                        <button>Deploy</button>
-                      </a>
-                    </div>
-                  </div>
+            <h3>Dashboard de Vendas</h3>
+            <img src={dashboard} alt="Capa do E-Commerce" />
+
+            <p>
+              Dashboard full stack com login e cadastro, modo claro/escuro,
+              gráficos interativos e suporte a múltiplos idiomas.
+            </p>
+            <div className="tech">
+              <p>Next JS</p>
+              <p>TypeScript</p>
+              <p>Styled Components</p>
+              <p>I18n</p>
+              <p>Recharts</p>
+              <p>MongoDB</p>
+              <p>Node JS</p>
+              <p>Jest</p>
+            </div>
+            <div className="btns">
+              <a
+                href="https://github.com/GRodrigues10/Dashboard-Next"
+                target="_blank"
+              >
+                <button>Github</button>
+              </a>
+              <a
+                href="https://dashboard-next-theta-orpin.vercel.app/"
+                target="_blank"
+              >
+                <button>Deploy</button>
+              </a>
+            </div>
+          </div>
 
           <div className="card">
             <h3>FullShop</h3>
