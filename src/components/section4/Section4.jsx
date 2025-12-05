@@ -33,7 +33,7 @@ function Section4() {
             <img src={dashboard} alt="Capa do E-Commerce" />
 
             <p>
-              Dashboard full stack com login e cadastro, modo claro/escuro,
+              Dashboard responsivo full stack com login e cadastro, modo claro/escuro,
               gráficos interativos e suporte a múltiplos idiomas.
             </p>
             <div className="tech">
